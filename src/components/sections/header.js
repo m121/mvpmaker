@@ -38,7 +38,7 @@ const Header = () => {
             </h2>
             <HeaderForm >
              
-              <a style={{ textDecoration: 'none' }} target="_blank" href="https://mateo796943.typeform.com/to/sMeHLH"><HeaderButton >Submit your mvp idea</HeaderButton></a>
+              <HeaderButton><a style={{ textDecoration: 'none' , color: 'white' }} target="_blank" href="https://mateo796943.typeform.com/to/sMeHLH">Submit your mvp idea</a></HeaderButton>
               
             </HeaderForm>
             
