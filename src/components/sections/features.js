@@ -7,30 +7,30 @@ const Features = () => (
   <Section id="features">
     <StyledContainer>
       <Subtitle>Features</Subtitle>
-      <SectionTitle>We build everything in your MVP</SectionTitle>
+      <SectionTitle>¿Por que elegirnos ?</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
-          <FeatureTitle>Design stack</FeatureTitle>
+          <FeatureTitle>Completo MVP</FeatureTitle>
           <FeatureText>
-            We make your logo, color palette and ux pages
+            Te creamos, diseñamos y te configuramos el hosting con tu dominio
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Tech stack</FeatureTitle>
+          <FeatureTitle>Único pago</FeatureTitle>
           <FeatureText>
-            We build your landin page or your app
+            Pagas una vez por el proyecto completo
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Automation</FeatureTitle>
+          <FeatureTitle>Tiempo definido</FeatureTitle>
           <FeatureText>
-           You choose the time you want have the project finished
+           Maximo 2 meses para crearte tu MVP.
           </FeatureText>
         </FeatureItem>
         
         <FeatureItem>
-          <FeatureTitle>Payments</FeatureTitle>
-          <FeatureText>Pay at the end of the project!.</FeatureText>
+          <FeatureTitle>Profesionales</FeatureTitle>
+          <FeatureText>Solamente desarrolladores profesionales.</FeatureText>
         </FeatureItem>
        
       </FeaturesGrid>

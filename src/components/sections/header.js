@@ -29,16 +29,16 @@ const Header = () => {
           <HeaderTextGroup>
             <Subtitle>MVP maker</Subtitle>
             <h1>
-              We build the MVP,
+              Te hacemos el MVP,
               <br />
-              of your idea
+              de tu idea
             </h1>
             <h2>
-              Please Submit your idea ,copy details about what your company does and we will do the rest 
+              Explicanos de que trata tu ídea y nosotros haremos el resto 
             </h2>
             <HeaderForm >
              
-              <HeaderButton><a style={{ textDecoration: 'none' , color: 'white' }} target="_blank" href="https://mateo796943.typeform.com/to/sMeHLH">Submit your mvp idea</a></HeaderButton>
+             {/* <HeaderButton><a style={{ textDecoration: 'none' , color: 'white' }} target="_blank" href="https://mateo796943.typeform.com/to/sMeHLH">Submit your mvp idea</a></HeaderButton>*/}
               
             </HeaderForm>
             

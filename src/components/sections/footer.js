@@ -7,23 +7,23 @@ const Footer = () => (
   <FooterWrapper id="footer">
     <FooterColumnContainer>
       <FooterColumn>
-        <span>Work with us</span>
+        <span>Trabaja con nosotros</span>
         <ul>
-          <li>Developer</li>
-          <li>Designer</li>
+          <li>Programadores</li>
+         
         </ul>
       </FooterColumn>
       <FooterColumn>
-        <span>Resources</span>
+        <span>Recursos</span>
         <ul>
           <li>Blog</li>
         </ul>
       </FooterColumn>
       <FooterColumn>
-        <span>Company</span>
+        <span>Empresa</span>
         <ul>
-          <li>About Us</li>
-          <li>Careers</li>
+          <li>Acerda de</li>
+          <li>Trabajos</li>
         </ul>
       </FooterColumn>
       <FooterColumn>
