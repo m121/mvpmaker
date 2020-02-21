@@ -1,12 +1,18 @@
 import React from "react"
 import styled from "styled-components"
-
+import { Link } from "gatsby"
 import { Container } from "../global"
 
 const Footer = () => (
   <FooterWrapper id="footer">
     <FooterColumnContainer>
-     
+    <FooterColumn>
+        <span>Legal</span>
+        <ul>
+          <li><Link style={{ textDecoration: 'none' , color: 'black' }} to="/terminos/">Términos y condiciones</Link></li>
+          <li><Link style={{ textDecoration: 'none' , color: 'black' }} to="/privacidad/">Pólitica de privacidad</Link></li>
+        </ul>
+      </FooterColumn>
       
     </FooterColumnContainer>
     <BrandContainer>

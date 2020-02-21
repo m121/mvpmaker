@@ -23,7 +23,7 @@ const Header = () => {
   }
 
   return (
-    <HeaderWrapper id="top">
+    <HeaderWrapper id="home">
       <Container>
         <Flex>
           <HeaderTextGroup>
@@ -37,8 +37,8 @@ const Header = () => {
               Explícanos de que trata tu idea y nosotros haremos el resto 
             </h2>
             <HeaderForm >
-             
-             {/* <HeaderButton><a style={{ textDecoration: 'none' , color: 'white' }} target="_blank" href="https://mateo796943.typeform.com/to/sMeHLH">Submit your mvp idea</a></HeaderButton>*/}
+           
+              <HeaderButton><Link style={{ textDecoration: 'none' , color: 'white' }} target="_blank" to="#start">Crea tu proyecto ya</Link></HeaderButton>
               
             </HeaderForm>
             
@@ -165,19 +165,22 @@ const HeaderButton = styled.button`
   height: 60px;
   display: block;
   margin-left: 8px;
+  font-family: inherit;
   text-transform: uppercase;
   cursor: pointer;
   white-space: nowrap;
   background: ${props => props.theme.color.secondary};
-  border-radius: 4px;
   padding: 0px 40px;
   border-width: 0px;
   border-style: initial;
   border-color: initial;
   border-image: initial;
+  border-radius: 35px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.08);
   outline: 0px;
   &:hover {
-    box-shadow: rgba(110, 120, 152, 0.22) 0px 2px 10px 0px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.16);
+    transform: translate(0, -5px);
   }
   @media (max-width: ${props => props.theme.screen.md}) {
   }

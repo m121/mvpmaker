@@ -4,15 +4,15 @@ import styled from "styled-components"
 import { Section, Container } from "../global"
 
 const Features = () => (
-  <Section id="features">
+  <Section id="caracteristicas">
     <StyledContainer>
-      <Subtitle>Caracteristicas</Subtitle>
+      <Subtitle>Características</Subtitle>
       <SectionTitle>¿Por qué elegirnos ?</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
           <FeatureTitle>Completo MVP</FeatureTitle>
           <FeatureText>
-             Creamos, diseñamos y te configuramos el hosting con tu dominio
+             Creamos, diseñamos y te configuramos el hosting con dominio para tu MVP
           </FeatureText>
         </FeatureItem>
         <FeatureItem>

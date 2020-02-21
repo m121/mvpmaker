@@ -5,6 +5,9 @@ import { Container, Section } from "../global"
 import Img from "gatsby-image"
 import { Grid, GridItem } from 'styled-grid-component';
 import imghome from "../../../src/images/product/home.png";
+import imgsplash from "../../../src/images/product/splash.png";
+import imgweb from "../../../src/images/product/web.png";
+import imgwebfull from "../../../src/images/product/webfull.png";
 
 const GetStarted = () => {
   const data = useStaticQuery(graphql`
@@ -20,17 +23,12 @@ const GetStarted = () => {
 `)
 
   
-  return (<StyledSection>
+  return (<Section id="start"><StyledSection>
     <GetStartedContainer>
-      <GetStartedTitle>Elige el proyecto deseado</GetStartedTitle>
-      <Grid 
-    width="100%"
-    height="100vh"
-    templateColumns="repeat(3, 1fr)"
-    gap="10px"
-    autoRows="minmax(100px, auto)"
-  >
-    <GridItem  column="1 / 2" row="1">
+    <GetStartedTitle>Elige el proyecto deseado</GetStartedTitle>
+      <FeaturesGrid>
+     
+      <FeatureItem>
       <CardWrapper>
         <CardHeader>
           <CardHeading>Splash landing</CardHeading>
@@ -38,8 +36,7 @@ const GetStarted = () => {
 
         <CardBody>
         <ImageWrapper>
-            <StyledImage fluid={data.file.childImageSharp.fluid} />
-            <br />
+        <StyledImage src={imgsplash}/>
           </ImageWrapper>
 
           <CardFieldset>
@@ -50,14 +47,17 @@ const GetStarted = () => {
           </CardFieldset>
 
           <CardFieldset>
-            <CardButton  target="_blank" href="https://mateo796943.typeform.com/to/ltwuDB">Elegir</CardButton>
+            <CardButton target="_blank" href="https://mateo796943.typeform.com/to/ltwuDB">Elegir</CardButton>
           </CardFieldset>
 
           
         </CardBody>
+        <CardFieldset>
+          <CardLink href="/terminos/">Términos y condiciones</CardLink>
+          </CardFieldset>
       </CardWrapper>
-      </GridItem>
-      <GridItem  column="2 / 4" row="1">
+      </FeatureItem>
+      <FeatureItem>
       <CardWrapper>
         <CardHeader>
           <CardHeading>Landing page básica</CardHeading>
@@ -65,12 +65,11 @@ const GetStarted = () => {
 
         <CardBody>
         <ImageWrapper>
-            <StyledImage fluid={data.file.childImageSharp.fluid} />
-            <br />
+        <StyledImage src={imgweb}/>
           </ImageWrapper>
 
           <CardFieldset>
-            <CardDescripton>Una sola página sencilla con formulario para sucribir correos</CardDescripton>
+            <CardDescripton>Una sola página sencilla con un formulario y captura de correos</CardDescripton>
             <CardDescriptonPrice>$250 USD</CardDescriptonPrice>
 
     
@@ -82,9 +81,12 @@ const GetStarted = () => {
 
           
         </CardBody>
+        <CardFieldset>
+          <CardLink href="/terminos/">Términos y condiciones</CardLink>
+          </CardFieldset>
       </CardWrapper>
-      </GridItem>
-      <GridItem  column="4 / 6" row="1">
+    </FeatureItem>
+    <FeatureItem>
       <CardWrapper>
         <CardHeader>
           <CardHeading>Página informativa</CardHeading>
@@ -92,12 +94,12 @@ const GetStarted = () => {
 
         <CardBody>
         <ImageWrapper>
-          <img src={imghome} width="200px;"/>
+          <StyledImage src={imgwebfull}/>
           
           </ImageWrapper>
 
           <CardFieldset>
-            <CardDescripton>Una página informativa con hasta 5 páginas y dos formularios</CardDescripton>
+            <CardDescripton>Una página informativa con hasta 5 páginas,dos formularios y captura de correos</CardDescripton>
             <CardDescriptonPrice>$500 USD</CardDescriptonPrice>
 
     
@@ -106,16 +108,19 @@ const GetStarted = () => {
           <CardFieldset>
             <CardButton target="_blank" href="https://mateo796943.typeform.com/to/E9pMz9">Elegir</CardButton>
           </CardFieldset>
-
+          
           
         </CardBody>
+        <CardFieldset>
+          <CardLink href="/terminos/">Términos y condiciones</CardLink>
+          </CardFieldset>
       </CardWrapper>
-      </GridItem>
+      </FeatureItem>
       
      
-    </Grid>
+      </FeaturesGrid>
     </GetStartedContainer>
-  </StyledSection>)
+  </StyledSection></Section>)
 }
 
 export default GetStarted
@@ -135,6 +140,9 @@ const GetStartedContainer = styled(Container)`
 
 const GetStartedTitle = styled.h3`
   margin: 0 auto 32px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 40px;
   text-align: center;
 `
 
@@ -304,6 +312,7 @@ export const CardOptionsItem = styled.li`
 export const CardButton = styled.a`
   display: block;
   width: 100%;
+  text-decoration:none;
   padding: 12px 0;
   font-family: inherit;
   font-size: 14px;
@@ -327,6 +336,7 @@ export const CardLink = styled.a`
   font-size: 12px;
   text-decoration: none;
   color: #aaa;
+  padding : 20px;
   border-bottom: 1px solid #ddd;
   cursor: pointer;
   transition: color 0.25s ease-in;
@@ -344,7 +354,9 @@ const ImageWrapper = styled.div`
   }
 `
 
-const StyledImage = styled(Img)`
+const StyledImage = styled.img`
+  align-self: center;
+  justify-self: center;
   width: 200px;
   @media (max-width: ${props => props.theme.screen.md}) {
     width: 400px;
@@ -353,4 +365,25 @@ const StyledImage = styled(Img)`
     width: 70px;
     display: none;
   }
+`
+
+
+const FeaturesGrid = styled.div`
+  max-width: 950px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0px auto;
+  grid-column-gap: 40px;
+  grid-row-gap: 35px;
+  @media (max-width: ${props => props.theme.screen.sm}) {
+    grid-template-columns: 1fr;
+    padding: 0 64px;
+  }
+`
+
+const FeatureItem = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 `
