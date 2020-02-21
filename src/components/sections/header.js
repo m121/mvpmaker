@@ -34,7 +34,7 @@ const Header = () => {
               de tu idea
             </h1>
             <h2>
-              Explicanos de que trata tu ídea y nosotros haremos el resto 
+              Explícanos de que trata tu idea y nosotros haremos el resto 
             </h2>
             <HeaderForm >
              

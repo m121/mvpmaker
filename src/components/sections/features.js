@@ -6,13 +6,13 @@ import { Section, Container } from "../global"
 const Features = () => (
   <Section id="features">
     <StyledContainer>
-      <Subtitle>Features</Subtitle>
-      <SectionTitle>¿Por que elegirnos ?</SectionTitle>
+      <Subtitle>Caracteristicas</Subtitle>
+      <SectionTitle>¿Por qué elegirnos ?</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
           <FeatureTitle>Completo MVP</FeatureTitle>
           <FeatureText>
-            Te creamos, diseñamos y te configuramos el hosting con tu dominio
+             Creamos, diseñamos y te configuramos el hosting con tu dominio
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
@@ -24,13 +24,13 @@ const Features = () => (
         <FeatureItem>
           <FeatureTitle>Tiempo definido</FeatureTitle>
           <FeatureText>
-           Maximo 2 meses para crearte tu MVP.
+           Máximo 2 meses para crearte tu MVP
           </FeatureText>
         </FeatureItem>
         
         <FeatureItem>
           <FeatureTitle>Profesionales</FeatureTitle>
-          <FeatureText>Solamente desarrolladores profesionales.</FeatureText>
+          <FeatureText>Solamente desarrolladores profesionales</FeatureText>
         </FeatureItem>
        
       </FeaturesGrid>

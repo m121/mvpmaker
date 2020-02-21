@@ -6,33 +6,8 @@ import { Container } from "../global"
 const Footer = () => (
   <FooterWrapper id="footer">
     <FooterColumnContainer>
-      <FooterColumn>
-        <span>Trabaja con nosotros</span>
-        <ul>
-          <li>Programadores</li>
-         
-        </ul>
-      </FooterColumn>
-      <FooterColumn>
-        <span>Recursos</span>
-        <ul>
-          <li>Blog</li>
-        </ul>
-      </FooterColumn>
-      <FooterColumn>
-        <span>Empresa</span>
-        <ul>
-          <li>Acerda de</li>
-          <li>Trabajos</li>
-        </ul>
-      </FooterColumn>
-      <FooterColumn>
-        <span>Social</span>
-        <ul>
-          <li>LinkedIn</li>
-          <li>Instagram</li>
-        </ul>
-      </FooterColumn>
+     
+      
     </FooterColumnContainer>
     <BrandContainer>
       <Logo>MVP maker</Logo>

@@ -4,6 +4,7 @@ import { graphql, useStaticQuery, Link } from "gatsby"
 import { Container, Section } from "../global"
 import Img from "gatsby-image"
 import { Grid, GridItem } from 'styled-grid-component';
+import imghome from "../../../src/images/product/home.png";
 
 const GetStarted = () => {
   const data = useStaticQuery(graphql`
@@ -22,14 +23,14 @@ const GetStarted = () => {
   return (<StyledSection>
     <GetStartedContainer>
       <GetStartedTitle>Elige el proyecto deseado</GetStartedTitle>
-      <Grid
+      <Grid 
     width="100%"
     height="100vh"
     templateColumns="repeat(3, 1fr)"
     gap="10px"
     autoRows="minmax(100px, auto)"
   >
-    <GridItem column="1 / 2" row="1">
+    <GridItem  column="1 / 2" row="1">
       <CardWrapper>
         <CardHeader>
           <CardHeading>Splash landing</CardHeading>
@@ -42,7 +43,7 @@ const GetStarted = () => {
           </ImageWrapper>
 
           <CardFieldset>
-            <CardDescripton>Una sola pagina sencilla usada para capturar correos</CardDescripton>
+            <CardDescripton>Una sola página sencilla usada para capturar correos</CardDescripton>
             <CardDescriptonPrice>$100 USD</CardDescriptonPrice>
 
     
@@ -56,7 +57,7 @@ const GetStarted = () => {
         </CardBody>
       </CardWrapper>
       </GridItem>
-      <GridItem column="2 / 4" row="1">
+      <GridItem  column="2 / 4" row="1">
       <CardWrapper>
         <CardHeader>
           <CardHeading>Landing page básica</CardHeading>
@@ -69,7 +70,7 @@ const GetStarted = () => {
           </ImageWrapper>
 
           <CardFieldset>
-            <CardDescripton>Una sola pagina sencilla con  formulario para sucbscribir correos</CardDescripton>
+            <CardDescripton>Una sola página sencilla con formulario para sucribir correos</CardDescripton>
             <CardDescriptonPrice>$250 USD</CardDescriptonPrice>
 
     
@@ -83,7 +84,7 @@ const GetStarted = () => {
         </CardBody>
       </CardWrapper>
       </GridItem>
-      <GridItem column="4 / 6" row="1">
+      <GridItem  column="4 / 6" row="1">
       <CardWrapper>
         <CardHeader>
           <CardHeading>Página informativa</CardHeading>
@@ -91,8 +92,8 @@ const GetStarted = () => {
 
         <CardBody>
         <ImageWrapper>
-            <StyledImage fluid={data.file.childImageSharp.fluid} />
-            <br />
+          <img src={imghome} width="200px;"/>
+          
           </ImageWrapper>
 
           <CardFieldset>
