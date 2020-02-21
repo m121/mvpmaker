@@ -1,6 +1,9 @@
 import React from "react"
 import styled from "styled-components"
-
+import imgpagina from "../../../src/images/product/pagina.png";
+import imgpago from "../../../src/images/product/pago.png";
+import imgprogramador from "../../../src/images/product/programador.png";
+import imgtiempo from "../../../src/images/product/cronografo.png";
 import { Section, Container } from "../global"
 
 const Features = () => (
@@ -10,18 +13,27 @@ const Features = () => (
       <SectionTitle>¿Por qué elegirnos ?</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
+        <ImageWrapper>
+        <StyledImage src={imgpagina}/>
+          </ImageWrapper>
           <FeatureTitle>Completo MVP</FeatureTitle>
           <FeatureText>
              Creamos, diseñamos y te configuramos el hosting con dominio para tu MVP
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
+        <ImageWrapper>
+        <StyledImage src={imgpago}/>
+          </ImageWrapper>
           <FeatureTitle>Único pago</FeatureTitle>
           <FeatureText>
             Pagas una vez por el proyecto completo
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
+        <ImageWrapper>
+        <StyledImage src={imgtiempo}/>
+          </ImageWrapper>
           <FeatureTitle>Tiempo definido</FeatureTitle>
           <FeatureText>
            Máximo 2 meses para crearte tu MVP
@@ -29,6 +41,9 @@ const Features = () => (
         </FeatureItem>
         
         <FeatureItem>
+        <ImageWrapper>
+        <StyledImage src={imgprogramador}/>
+          </ImageWrapper>
           <FeatureTitle>Profesionales</FeatureTitle>
           <FeatureText>Solamente desarrolladores profesionales</FeatureText>
         </FeatureItem>
@@ -87,4 +102,25 @@ const FeatureTitle = styled.h4`
 
 const FeatureText = styled.p`
   text-align: center;
+`
+
+const ImageWrapper = styled.div`
+  justify-self: end;
+  align-self: center;
+  @media (max-width: ${props => props.theme.screen.md}) {
+    justify-self: center;
+  }
+`
+
+const StyledImage = styled.img`
+  align-self: center;
+  justify-self: center;
+  width: 70px;
+  @media (max-width: ${props => props.theme.screen.md}) {
+    width: 200px;
+  }
+  @media (max-width: ${props => props.theme.screen.sm}) {
+    width: 70px;
+    display: none;
+  }
 `

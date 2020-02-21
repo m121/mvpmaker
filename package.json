@@ -23,8 +23,7 @@
     "react-feather": "^2.0.3",
     "react-helmet": "^5.2.1",
     "react-scrollspy": "^3.4.0",
-    "styled-components": "^4.4.0",
-    "styled-grid-component": "^1.1.13"
+    "styled-components": "^4.4.0"
   },
   "devDependencies": {
     "prettier": "^1.18.2"

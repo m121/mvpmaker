@@ -2,9 +2,6 @@ import React from "react"
 import styled, { css } from "styled-components";
 import { graphql, useStaticQuery, Link } from "gatsby"
 import { Container, Section } from "../global"
-import Img from "gatsby-image"
-import { Grid, GridItem } from 'styled-grid-component';
-import imghome from "../../../src/images/product/home.png";
 import imgsplash from "../../../src/images/product/splash.png";
 import imgweb from "../../../src/images/product/web.png";
 import imgwebfull from "../../../src/images/product/webfull.png";

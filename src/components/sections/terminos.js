@@ -183,7 +183,8 @@ Nos reservamos el derecho, a nuestra sola discreción, de actualizar, modificar 
 <Subtitle>SECCIÓN 21 - INFORMACIÓN DE CONTACTO</Subtitle>
 
 Preguntas acerca de los Términos de Servicio deben ser enviadas a mateo.perez.salazar@gmail.com.
-
+<br/>
+<br/>
 Iconos diseñados por <a href="https://www.flaticon.es/autores/alfredo-hernandez" title="Alfredo Hernandez">Alfredo Hernandez</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a>
 </FeatureText>
 </StyledContainer>
