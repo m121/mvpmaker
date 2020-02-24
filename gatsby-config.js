@@ -36,7 +36,6 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-social-cards`,
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
