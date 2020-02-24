@@ -33,7 +33,7 @@ const GetStarted = () => {
 
         <CardBody>
         <ImageWrapper>
-        <StyledImage src={imgsplash}/>
+        <StyledImage src={imgsplash} alt="splash_page"/>
           </ImageWrapper>
 
           <CardFieldset>
@@ -62,7 +62,7 @@ const GetStarted = () => {
 
         <CardBody>
         <ImageWrapper>
-        <StyledImage src={imgweb}/>
+        <StyledImage src={imgweb} alt="Landing_page"/>
           </ImageWrapper>
 
           <CardFieldset>
@@ -91,7 +91,7 @@ const GetStarted = () => {
 
         <CardBody>
         <ImageWrapper>
-          <StyledImage src={imgwebfull}/>
+          <StyledImage src={imgwebfull} alt="web_informativa"/>
           
           </ImageWrapper>
 
@@ -202,7 +202,7 @@ export const CardHeader = styled.header`
   padding-bottom: 32px;
 `;
 
-export const CardHeading = styled.h1`
+export const CardHeading = styled.h2`
   font-size: 24px;
   font-weight: bold;
   text-align: center;

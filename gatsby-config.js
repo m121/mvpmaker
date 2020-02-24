@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `MVP maker`,
-    description: `Paga por hacer un MVP completo`,
+    title: `MVP maker | Hacemos tu Producto Mínimo Viable para que avances en tu sueño de emprender`,
+    description: `Creamos tu Producto Mínimo Viable con los mejores desarrolladores para que ellos en menos de 2 meses y por el valor que ves en la plataforma te lo entreguen`,
     author: `Mateo Pérez`,
     siteUrl: `https://mvpmaker.co`,
   },
@@ -36,6 +36,7 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-social-cards`,
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,

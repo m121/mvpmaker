@@ -14,7 +14,7 @@ const Features = () => (
       <FeaturesGrid>
         <FeatureItem>
         <ImageWrapper>
-        <StyledImage src={imgpagina}/>
+        <StyledImage src={imgpagina} alt="Completo_mvp"/>
           </ImageWrapper>
           <FeatureTitle>Completo MVP</FeatureTitle>
           <FeatureText>
@@ -23,7 +23,7 @@ const Features = () => (
         </FeatureItem>
         <FeatureItem>
         <ImageWrapper>
-        <StyledImage src={imgpago}/>
+        <StyledImage src={imgpago} alt="unico_pago"/>
           </ImageWrapper>
           <FeatureTitle>Único pago</FeatureTitle>
           <FeatureText>
@@ -32,7 +32,7 @@ const Features = () => (
         </FeatureItem>
         <FeatureItem>
         <ImageWrapper>
-        <StyledImage src={imgtiempo}/>
+        <StyledImage src={imgtiempo} alt="tiempo_definido"/>
           </ImageWrapper>
           <FeatureTitle>Tiempo definido</FeatureTitle>
           <FeatureText>
@@ -42,7 +42,7 @@ const Features = () => (
         
         <FeatureItem>
         <ImageWrapper>
-        <StyledImage src={imgprogramador}/>
+        <StyledImage src={imgprogramador} alt="profesionales"/>
           </ImageWrapper>
           <FeatureTitle>Profesionales</FeatureTitle>
           <FeatureText>Solamente desarrolladores profesionales</FeatureText>
