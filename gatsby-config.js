@@ -3,6 +3,7 @@ module.exports = {
     title: `MVP maker`,
     description: `Paga por hacer un MVP completo`,
     author: `Mateo Pérez`,
+    siteUrl: `https://mvpmaker.co`,
   },
   plugins: [
     {
@@ -19,7 +20,22 @@ module.exports = {
         sv: 1
       },
     },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://mvpmaker.co',
+        sitemap: 'https://mvpmaker.co/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-drift',
+      options: {
+        appId: '3kwrwzxd9gzh',
+      },
+    },
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
