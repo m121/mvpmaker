@@ -36,7 +36,7 @@ module.exports = {
       resolve: `gatsby-plugin-hotjar`,
       options: {
         id: 1701256,
-        sv: YOUR_HOTJAR_SNIPPET_VERSION
+        sv: 1
       },
     },
     `gatsby-plugin-react-helmet`,
