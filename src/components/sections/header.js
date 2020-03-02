@@ -29,12 +29,12 @@ const Header = () => {
           <HeaderTextGroup>
             <Subtitle>MVP maker</Subtitle>
             <h1>
-              Te hacemos el MVP,
+              Te hacemos la página,
               <br />
-              de tu idea
+              de tu MVP
             </h1>
             <h2>
-              Explícanos de que trata tu idea y nosotros haremos el resto 
+              Explícanos de que trata tu idea y nosotros te creamos la landing page de tu proyecto. 
             </h2>
             <HeaderForm >
            

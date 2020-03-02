@@ -18,7 +18,7 @@ const Features = () => (
           </ImageWrapper>
           <FeatureTitle>Completo MVP</FeatureTitle>
           <FeatureText>
-             Creamos, diseñamos y te configuramos el hosting con dominio para tu MVP
+             Creamos, diseñamos y te configuramos el hosting con dominio para tu MVP.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
@@ -27,7 +27,7 @@ const Features = () => (
           </ImageWrapper>
           <FeatureTitle>Único pago</FeatureTitle>
           <FeatureText>
-            Pagas una vez por el proyecto completo
+            Pagas una vez por el proyecto completo.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
@@ -36,7 +36,7 @@ const Features = () => (
           </ImageWrapper>
           <FeatureTitle>Tiempo definido</FeatureTitle>
           <FeatureText>
-           Máximo 2 meses para crearte tu MVP
+           Máximo 2 meses para crearte tu MVP.
           </FeatureText>
         </FeatureItem>
         
@@ -45,7 +45,7 @@ const Features = () => (
         <StyledImage src={imgprogramador} alt="profesionales"/>
           </ImageWrapper>
           <FeatureTitle>Profesionales</FeatureTitle>
-          <FeatureText>Solamente desarrolladores profesionales</FeatureText>
+          <FeatureText>Solamente desarrolladores profesionales.</FeatureText>
         </FeatureItem>
        
       </FeaturesGrid>

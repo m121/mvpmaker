@@ -124,7 +124,7 @@ export default GetStarted
 
 const StyledSection = styled(Section)`
   background-color: ${props => props.theme.color.background.light};
-  clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 4%, 100% 100%, 0% 100%);
 `
 
 const GetStartedContainer = styled(Container)`
