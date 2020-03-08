@@ -44,7 +44,7 @@ const GetStarted = () => {
           </CardFieldset>
 
           <CardFieldset>
-            <CardButton target="_blank" href="https://mateo796943.typeform.com/to/ltwuDB">Elegir</CardButton>
+            <CardButton  href="https://mateo796943.typeform.com/to/ltwuDB">Elegir</CardButton>
           </CardFieldset>
 
           
@@ -73,7 +73,7 @@ const GetStarted = () => {
           </CardFieldset>
 
           <CardFieldset>
-            <CardButton target="_blank" href="https://mateo796943.typeform.com/to/qMXRCn">Elegir</CardButton>
+            <CardButton  href="https://mateo796943.typeform.com/to/qMXRCn">Elegir</CardButton>
           </CardFieldset>
 
           
@@ -103,7 +103,7 @@ const GetStarted = () => {
           </CardFieldset>
 
           <CardFieldset>
-            <CardButton target="_blank" href="https://mateo796943.typeform.com/to/E9pMz9">Elegir</CardButton>
+            <CardButton  href="https://mateo796943.typeform.com/to/E9pMz9">Elegir</CardButton>
           </CardFieldset>
           
           
