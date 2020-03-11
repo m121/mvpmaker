@@ -38,7 +38,7 @@ const Header = () => {
             </h2>
             <HeaderForm >
            
-              <HeaderButton><Link style={{ textDecoration: 'none' , color: 'white' }} target="_blank" to="#start">Crea tu proyecto ya</Link></HeaderButton>
+              <HeaderButton><Link style={{ textDecoration: 'none' , color: 'white' }}  to="#start">Crea tu proyecto ya</Link></HeaderButton>
               
             </HeaderForm>
             
