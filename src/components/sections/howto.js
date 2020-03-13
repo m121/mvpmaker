@@ -21,7 +21,7 @@ const HowTo = () => {
 `)
 
   
-  return (<Section id="start"><StyledSection>
+  return (<Section id="howto"><StyledSection>
     <GetStartedContainer>
     <GetStartedTitle>¿Cómo lo hacemos?</GetStartedTitle>
       <FeaturesGrid>

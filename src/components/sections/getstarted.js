@@ -6,6 +6,8 @@ import imgsplash from "../../../src/images/product/splash.png";
 import imgweb from "../../../src/images/product/web.png";
 import imgwebfull from "../../../src/images/product/webfull.png";
 
+/*  */
+
 const GetStarted = () => {
   const data = useStaticQuery(graphql`
   query {
@@ -38,13 +40,13 @@ const GetStarted = () => {
 
           <CardFieldset>
             <CardDescripton>Una sola página sencilla usada para capturar correos</CardDescripton>
-            <CardDescriptonPrice>$100 USD</CardDescriptonPrice>
+            <CardDescriptonPrice>$150.000 Pesos</CardDescriptonPrice>
 
     
           </CardFieldset>
 
           <CardFieldset>
-            <CardButton  href="https://mateo796943.typeform.com/to/ltwuDB">Elegir</CardButton>
+            <CardButton  href="https://mateo796943.typeform.com/to/ltwuDB">Elegir proyecto</CardButton>
           </CardFieldset>
 
           
@@ -67,13 +69,13 @@ const GetStarted = () => {
 
           <CardFieldset>
             <CardDescripton>Una sola página sencilla con un formulario y captura de correos</CardDescripton>
-            <CardDescriptonPrice>$250 USD</CardDescriptonPrice>
+            <CardDescriptonPrice>$500.000 Pesos</CardDescriptonPrice>
 
     
           </CardFieldset>
 
           <CardFieldset>
-            <CardButton  href="https://mateo796943.typeform.com/to/qMXRCn">Elegir</CardButton>
+            <CardButton  href="https://mateo796943.typeform.com/to/qMXRCn">Elegir proyecto</CardButton>
           </CardFieldset>
 
           
@@ -97,13 +99,13 @@ const GetStarted = () => {
 
           <CardFieldset>
             <CardDescripton>Una página informativa con hasta 5 páginas,dos formularios y captura de correos</CardDescripton>
-            <CardDescriptonPrice>$500 USD</CardDescriptonPrice>
+            <CardDescriptonPrice>$800.000 Pesos</CardDescriptonPrice>
 
     
           </CardFieldset>
 
           <CardFieldset>
-            <CardButton  href="https://mateo796943.typeform.com/to/E9pMz9">Elegir</CardButton>
+            <CardButton  href="https://mateo796943.typeform.com/to/E9pMz9">Elegir proyecto</CardButton>
           </CardFieldset>
           
           
