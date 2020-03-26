@@ -81,4 +81,12 @@ In `header.js` replacing the existing `<HeaderForm>...</HeaderForm>` components 
   />
   <HeaderButton>Early access</HeaderButton>
 </HeaderForm>
+
+
+{
+    title: `Hacemos tu Producto Mínimo Viable para que avances en tu sueño de emprender`,
+    description: `Creamos tu Producto Mínimo Viable con los mejores desarrolladores para que ellos en menos de 2 meses y por el valor que ves en la plataforma te lo entreguen`,
+    author: `Mateo Pérez`,
+    siteUrl: `https://mvpmaker.co`,
+  },
 ```

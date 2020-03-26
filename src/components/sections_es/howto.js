@@ -23,30 +23,27 @@ const HowTo = () => {
   
   return (<Section id="howto"><StyledSection>
     <GetStartedContainer>
-    <GetStartedTitle>How we do it?</GetStartedTitle>
+    <GetStartedTitle>¿Cómo lo hacemos?</GetStartedTitle>
       <FeaturesGrid>
      
       <FeatureItem>
-      <StyledImage src={mano} width="20" alt="choose_project"/>
-      <CardDescripton>1. Choose the project.</CardDescripton>
+      <StyledImage src={mano} width="20" alt="escoge_proyecto"/>
+      <CardDescripton>1. Escoge el proyecto deseado.</CardDescripton>
      
       </FeatureItem>
       <FeatureItem>
-      <StyledImage src={codigo} alt="freelancers_take"/>
-      <CardDescripton>2. A developer freelancer take the project.</CardDescripton>
+      <StyledImage src={codigo} alt="asignar_desarrollador"/>
+      <CardDescripton>2. Te asignamos el desarrollador que más se ajuste a tu idea.</CardDescripton>
       
     </FeatureItem>
     <FeatureItem>
-    <StyledImage src={lista} alt="list_goals"/>
-    <CardDescripton>3. Set goals, schedule dateline with your developer and then we send you the payment link. 
-    </CardDescripton>
+    <StyledImage src={lista} alt="lista_objetivos"/>
+    <CardDescripton>3. Defines objetivos, fecha de entrega con tu desarrollador y luego recibimos tu pago.</CardDescripton>
       
       </FeatureItem>
       <FeatureItem>
-      <StyledImage src={meta} alt="deadline_project"/>
-    <CardDescripton>4. We confirm your full project and we pay do the payment.
-                       
-    </CardDescripton>
+      <StyledImage src={meta} alt="meta_proyecto"/>
+    <CardDescripton>4. En la fecha establecida recibes el proyecto y el desarrollador su pago.</CardDescripton>
       
       </FeatureItem>
       

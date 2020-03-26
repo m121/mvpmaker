@@ -9,43 +9,43 @@ import { Section, Container } from "../global"
 const Features = () => (
   <Section id="caracteristicas">
     <StyledContainer>
-      
-      <SectionTitle>Why people choose us ?</SectionTitle>
+      <Subtitle>Características</Subtitle>
+      <SectionTitle>¿Por qué elegirnos ?</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
         <ImageWrapper>
-        <StyledImage src={imgpagina} alt="full_mvp"/>
+        <StyledImage src={imgpagina} alt="Completo_mvp"/>
           </ImageWrapper>
-          <FeatureTitle>Full Website</FeatureTitle>
+          <FeatureTitle>Completo MVP</FeatureTitle>
           <FeatureText>
-             We build, we design and we set the hosting configuration for your website.
+             Creamos, diseñamos y te configuramos el hosting con dominio para tu MVP.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
         <ImageWrapper>
-        <StyledImage src={imgpago} alt="one_payment"/>
+        <StyledImage src={imgpago} alt="unico_pago"/>
           </ImageWrapper>
-          <FeatureTitle>One payment</FeatureTitle>
+          <FeatureTitle>Único pago</FeatureTitle>
           <FeatureText>
-            You only pay once for the project.
+            Pagas una vez por el proyecto completo.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
         <ImageWrapper>
-        <StyledImage src={imgtiempo} alt="deadline"/>
+        <StyledImage src={imgtiempo} alt="tiempo_definido"/>
           </ImageWrapper>
-          <FeatureTitle>Deadline time</FeatureTitle>
+          <FeatureTitle>Tiempo definido</FeatureTitle>
           <FeatureText>
-           The deadline is 2 months to build your website.
+           Máximo 2 meses para crearte tu MVP.
           </FeatureText>
         </FeatureItem>
         
         <FeatureItem>
         <ImageWrapper>
-        <StyledImage src={imgprogramador} alt="pro_people"/>
+        <StyledImage src={imgprogramador} alt="profesionales"/>
           </ImageWrapper>
-          <FeatureTitle>Experts</FeatureTitle>
-          <FeatureText>We only accept best developers.</FeatureText>
+          <FeatureTitle>Profesionales</FeatureTitle>
+          <FeatureText>Solamente desarrolladores profesionales.</FeatureText>
         </FeatureItem>
        
       </FeaturesGrid>

@@ -9,8 +9,8 @@ const Footer = () => (
     <FooterColumn>
         <span>Legal</span>
         <ul>
-          <li><Link style={{ textDecoration: 'none' , color: 'black' }} to="/terms/">Terms and conditions</Link></li>
-          <li><Link style={{ textDecoration: 'none' , color: 'black' }} to="/privacy/">Privacy terms</Link></li>
+          <li><Link style={{ textDecoration: 'none' , color: 'black' }} to="terminos/">Términos y condiciones</Link></li>
+          <li><Link style={{ textDecoration: 'none' , color: 'black' }} to="privacidad/">Pólitica de privacidad</Link></li>
         </ul>
       </FooterColumn>
       

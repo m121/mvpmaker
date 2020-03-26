@@ -2,12 +2,13 @@ import React from "react"
 import styled, { css } from "styled-components";
 import { graphql, useStaticQuery, Link } from "gatsby"
 import { Container, Section } from "../global"
-import mano from "../../../src/images/product/mano.png";
-import lista from "../../../src/images/product/lista.png";
-import meta from "../../../src/images/product/meta.png";
-import codigo from "../../../src/images/product/codigo.png"
+import imgsplash from "../../../src/images/product/splash.png";
+import imgweb from "../../../src/images/product/web.png";
+import imgwebfull from "../../../src/images/product/webfull.png";
 
-const HowTo = () => {
+/*  */
+
+const GetStarted = () => {
   const data = useStaticQuery(graphql`
   query {
     file(sourceInstanceName: { eq: "product" }, name: { eq: "home" }) {
@@ -21,35 +22,99 @@ const HowTo = () => {
 `)
 
   
-  return (<Section id="howto"><StyledSection>
+  return (<Section id="start"><StyledSection>
     <GetStartedContainer>
-    <GetStartedTitle>How we do it?</GetStartedTitle>
+    <GetStartedTitle>Elige el proyecto deseado</GetStartedTitle>
       <FeaturesGrid>
      
       <FeatureItem>
-      <StyledImage src={mano} width="20" alt="choose_project"/>
-      <CardDescripton>1. Choose the project.</CardDescripton>
-     
+      <CardWrapper>
+        <CardHeader>
+          <CardHeading>Splash landing</CardHeading>
+        </CardHeader>
+
+        <CardBody>
+        <ImageWrapper>
+        <StyledImage src={imgsplash} alt="splash_page"/>
+          </ImageWrapper>
+
+          <CardFieldset>
+            <CardDescripton>Una sola página sencilla usada para capturar correos</CardDescripton>
+            <CardDescriptonPrice>$150.000 Pesos</CardDescriptonPrice>
+
+    
+          </CardFieldset>
+
+          <CardFieldset>
+            <CardButton  href="https://mateo796943.typeform.com/to/ltwuDB">Elegir proyecto</CardButton>
+          </CardFieldset>
+
+          
+        </CardBody>
+        <CardFieldset>
+          <CardLink href="/terminos/">Términos y condiciones</CardLink>
+          </CardFieldset>
+      </CardWrapper>
       </FeatureItem>
       <FeatureItem>
-      <StyledImage src={codigo} alt="freelancers_take"/>
-      <CardDescripton>2. A developer freelancer take the project.</CardDescripton>
-      
+      <CardWrapper>
+        <CardHeader>
+          <CardHeading>Landing page básica</CardHeading>
+        </CardHeader>
+
+        <CardBody>
+        <ImageWrapper>
+        <StyledImage src={imgweb} alt="Landing_page"/>
+          </ImageWrapper>
+
+          <CardFieldset>
+            <CardDescripton>Una sola página sencilla con un formulario y captura de correos</CardDescripton>
+            <CardDescriptonPrice>$500.000 Pesos</CardDescriptonPrice>
+
+    
+          </CardFieldset>
+
+          <CardFieldset>
+            <CardButton  href="https://mateo796943.typeform.com/to/qMXRCn">Elegir proyecto</CardButton>
+          </CardFieldset>
+
+          
+        </CardBody>
+        <CardFieldset>
+          <CardLink href="/terminos/">Términos y condiciones</CardLink>
+          </CardFieldset>
+      </CardWrapper>
     </FeatureItem>
     <FeatureItem>
-    <StyledImage src={lista} alt="list_goals"/>
-    <CardDescripton>3. Set goals, schedule dateline with your developer and then we send you the payment link. 
-    </CardDescripton>
-      
+      <CardWrapper>
+        <CardHeader>
+          <CardHeading>Página informativa</CardHeading>
+        </CardHeader>
+
+        <CardBody>
+        <ImageWrapper>
+          <StyledImage src={imgwebfull} alt="web_informativa"/>
+          
+          </ImageWrapper>
+
+          <CardFieldset>
+            <CardDescripton>Una página informativa con hasta 5 páginas,dos formularios y captura de correos</CardDescripton>
+            <CardDescriptonPrice>$800.000 Pesos</CardDescriptonPrice>
+
+    
+          </CardFieldset>
+
+          <CardFieldset>
+            <CardButton  href="https://mateo796943.typeform.com/to/E9pMz9">Elegir proyecto</CardButton>
+          </CardFieldset>
+          
+          
+        </CardBody>
+        <CardFieldset>
+          <CardLink href="/terminos/">Términos y condiciones</CardLink>
+          </CardFieldset>
+      </CardWrapper>
       </FeatureItem>
-      <FeatureItem>
-      <StyledImage src={meta} alt="deadline_project"/>
-    <CardDescripton>4. We confirm your full project and we pay do the payment.
-                       
-    </CardDescripton>
-      
-      </FeatureItem>
-      
       
      
       </FeaturesGrid>
@@ -57,18 +122,11 @@ const HowTo = () => {
   </StyledSection></Section>)
 }
 
-export default HowTo
+export default GetStarted
 
 const StyledSection = styled(Section)`
   background-color: ${props => props.theme.color.background.light};
-  
-`
-
-const FeatureTitle = styled.h4`
-  color: ${props => props.theme.color.primary};
-  letter-spacing: 0px;
-  line-height: 30px;
-  margin-bottom: 10px;
+  clip-path: polygon(0 0, 100% 4%, 100% 100%, 0% 100%);
 `
 
 const GetStartedContainer = styled(Container)`
@@ -87,7 +145,41 @@ const GetStartedTitle = styled.h3`
   text-align: center;
 `
 
+const TryItButton = styled.button`
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  letter-spacing: 1px;
+  height: 60px;
+  display: block;
+  margin-left: 8px;
+  text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+  background: ${props => props.theme.color.secondary};
+  border-radius: 4px;
+  padding: 0px 40px;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  outline: 0px;
+  &:hover {
+    box-shadow: rgba(110, 120, 152, 0.22) 0px 2px 10px 0px;
+  }
+  @media (max-width: ${props => props.theme.screen.md}) {
+  }
+  @media (max-width: ${props => props.theme.screen.sm}) {
+    margin-left: 0;
+  }
+`
 
+const Subtitle = styled.span`
+  ${props => props.theme.font_size.xxsmall}
+  padding-top: 16px;
+  font-size: 14px;
+  color: ${props => props.theme.color.primary};
+`
 
 export const CardGallery = styled.div`
 margin: 5px;
@@ -253,12 +345,18 @@ export const CardLink = styled.a`
   }
 `;
 
-
+const ImageWrapper = styled.div`
+  justify-self: end;
+  align-self: center;
+  @media (max-width: ${props => props.theme.screen.md}) {
+    justify-self: center;
+  }
+`
 
 const StyledImage = styled.img`
   align-self: center;
   justify-self: center;
-  width: 100px;
+  width: 200px;
   @media (max-width: ${props => props.theme.screen.md}) {
     width: 400px;
   }
@@ -272,7 +370,7 @@ const StyledImage = styled.img`
 const FeaturesGrid = styled.div`
   max-width: 950px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   margin: 0px auto;
   grid-column-gap: 40px;
   grid-row-gap: 35px;

@@ -29,16 +29,16 @@ const Header = () => {
           <HeaderTextGroup>
             <Subtitle>MVP maker</Subtitle>
             <h1>
-              We build your website,
+              Te hacemos la página,
               <br />
-              of your MVP
+              de tu MVP
             </h1>
             <h2>
-              Tell us about your idea and we do the landing page of your project.
+              Explícanos de que trata tu idea y nosotros te creamos la landing page de tu proyecto. 
             </h2>
             <HeaderForm >
            
-              <HeaderButton><Link style={{ textDecoration: 'none' , color: 'white' }}  to="#start">¡Do your project now!</Link></HeaderButton>
+              <HeaderButton><Link style={{ textDecoration: 'none' , color: 'white' }}  to="#start">Crea tu proyecto ya</Link></HeaderButton>
               
             </HeaderForm>
             

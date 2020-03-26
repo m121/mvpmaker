@@ -24,7 +24,7 @@ const GetStarted = () => {
   
   return (<Section id="start"><StyledSection>
     <GetStartedContainer>
-    <GetStartedTitle>Elige el proyecto deseado</GetStartedTitle>
+    <GetStartedTitle>Choose your website</GetStartedTitle>
       <FeaturesGrid>
      
       <FeatureItem>
@@ -39,27 +39,27 @@ const GetStarted = () => {
           </ImageWrapper>
 
           <CardFieldset>
-            <CardDescripton>Una sola página sencilla usada para capturar correos</CardDescripton>
-            <CardDescriptonPrice>$150.000 Pesos</CardDescriptonPrice>
+            <CardDescripton>Simple website for get emails</CardDescripton>
+            <CardDescriptonPrice>$100 USD</CardDescriptonPrice>
 
     
           </CardFieldset>
 
           <CardFieldset>
-            <CardButton  href="https://mateo796943.typeform.com/to/ltwuDB">Elegir proyecto</CardButton>
+            <CardButton  href="https://mateo796943.typeform.com/to/bb2Xf0">Choose website</CardButton>
           </CardFieldset>
 
           
         </CardBody>
         <CardFieldset>
-          <CardLink href="/terminos/">Términos y condiciones</CardLink>
+          <CardLink href="/terms/">Terms and conditions</CardLink>
           </CardFieldset>
       </CardWrapper>
       </FeatureItem>
       <FeatureItem>
       <CardWrapper>
         <CardHeader>
-          <CardHeading>Landing page básica</CardHeading>
+          <CardHeading>Landing page</CardHeading>
         </CardHeader>
 
         <CardBody>
@@ -68,50 +68,52 @@ const GetStarted = () => {
           </ImageWrapper>
 
           <CardFieldset>
-            <CardDescripton>Una sola página sencilla con un formulario y captura de correos</CardDescripton>
-            <CardDescriptonPrice>$500.000 Pesos</CardDescriptonPrice>
+            <CardDescripton>A landing page with a form and newsletter form</CardDescripton>
+            <CardDescriptonPrice>$250 USD</CardDescriptonPrice>
 
     
           </CardFieldset>
 
           <CardFieldset>
-            <CardButton  href="https://mateo796943.typeform.com/to/qMXRCn">Elegir proyecto</CardButton>
+            <CardButton  href="https://mateo796943.typeform.com/to/tcbYzj">Choose website</CardButton>
           </CardFieldset>
 
           
         </CardBody>
         <CardFieldset>
-          <CardLink href="/terminos/">Términos y condiciones</CardLink>
+          <CardLink href="/terms/">Terms and conditions</CardLink>
           </CardFieldset>
       </CardWrapper>
     </FeatureItem>
     <FeatureItem>
       <CardWrapper>
         <CardHeader>
-          <CardHeading>Página informativa</CardHeading>
+          <CardHeading>Website</CardHeading>
         </CardHeader>
 
         <CardBody>
         <ImageWrapper>
-          <StyledImage src={imgwebfull} alt="web_informativa"/>
+          <StyledImage src={imgwebfull} alt="full_web"/>
           
           </ImageWrapper>
 
           <CardFieldset>
-            <CardDescripton>Una página informativa con hasta 5 páginas,dos formularios y captura de correos</CardDescripton>
-            <CardDescriptonPrice>$800.000 Pesos</CardDescriptonPrice>
+            <CardDescripton>A full website with 5 pages , two forms and a newsletter form
+              
+            </CardDescripton>
+            <CardDescriptonPrice>$500 USD</CardDescriptonPrice>
 
     
           </CardFieldset>
 
           <CardFieldset>
-            <CardButton  href="https://mateo796943.typeform.com/to/E9pMz9">Elegir proyecto</CardButton>
+            <CardButton  href="https://mateo796943.typeform.com/to/SQbFXG">Choose website</CardButton>
           </CardFieldset>
           
           
         </CardBody>
         <CardFieldset>
-          <CardLink href="/terminos/">Términos y condiciones</CardLink>
+          <CardLink href="/terms/">Terms and conditions</CardLink>
           </CardFieldset>
       </CardWrapper>
       </FeatureItem>

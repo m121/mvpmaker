@@ -6,90 +6,67 @@ import { Section, Container } from "../global"
 const Privacidad = () => (
   <Section id="features">
       <StyledContainer>
-     <SectionTitle>Política de privacidad</SectionTitle>
-     <FeatureTitle>DECLARACIÓN DE PRIVACIDAD</FeatureTitle>
-     
-     <Subtitle>SECCIÓN 1 - ¿QUÉ HACEMOS CON TU INFORMACIÓN?</Subtitle>
-     <FeatureText>
-     Cuando un servicio de nuestra plataforma, como parte del proceso de compra venta, nosotros recolectamos la información personal que nos
+      <SectionTitle>  MVP Maker Privacy Policy</SectionTitle>
+      <FeatureTitle>MVP Maker Privacy Policy</FeatureTitle>
+      <Subtitle>This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from https://mvpmaker.co (the “Site”).</Subtitle>
 
-das tales como nombre, celular y correo electrónico.
+      <FeatureText>
+      <Subtitle>PERSONAL INFORMATION WE COLLECT</Subtitle>
 
-Cuando navegas en nuestra plataforma, también recibimos de manera automática la dirección de protocolo de internet de tu computadora (IP)
+When you visit the Site, we automatically collect certain information about your device, including information about your web browser, IP address, time zone, and some of the cookies that are installed on your device. Additionally, as you browse the Site, we collect information about the individual web pages or products that you view, what websites or search terms referred you to the Site, and information about how you interact with the Site. We refer to this automatically-collected information as “Device Information.”
 
-con el fin de proporcionarnos información que nos ayuda a conocer acerca de su navegador y sistema operativo.
+We collect Device Information using the following technologies:
 
-Email marketing (Si es aplicable): Con tu permiso, podremos enviarte correos electrónicos acerca de nuestra plataforma, nuevos productos y otras actualizaciones.
-
-
-<Subtitle>SECTION 2 - CONSENTIMIENTO</Subtitle>
-
-<strong>¿Cómo obtienen mi consentimiento?</strong>
-
-Cuando nos provees tu información personal para completar una transacción, verificar tu tarjeta de crédito, crear una órden,  hacer una devolución, implicamos que aceptas la recolección y uso por esa razón específica solamente.
-
-Si te pedimos tu información personal por una razón secundaria, como marketing, te pediremos directame tu expreso consentimiento, o te daremos la oportunidad de negarte.
-
-<strong>¿Cómo puedo anular mi consentimiento?</strong>
-
-Si luego de haber aceptado cambias de opinión, puedes anular tu consentimiento para que te contactemos, por la recolección, uso o divulgación de tu información, en cualquier momento, contactándonos a mateo.perez.salazar@gmail.com o escribiéndonos a: MVP Maker Carrera 15 #134-21, Bogotá DC, DC, 110121, Colombia
+    - “Log files” track actions occurring on the Site, and collect data including your IP address, browser type, Internet service provider, referring/exit pages, and date/time stamps.
+    - “Web beacons,” “tags,” and “pixels” are electronic files used to record information about how you browse the Site.
+    
+Additionally when you make a purchase or attempt to make a purchase through the Site, we collect certain information from you, including your name, payment information (including credit card numbers ), email address, and phone number.  We refer to this information as “Order Information.”
 
 
-<Subtitle>SECCIÓN 3 - DIVULGACIÓN</Subtitle>
+When we talk about “Personal Information” in this Privacy Policy, we are talking both about Device Information and Order Information.
 
-Podemos divulgar tu información personal si se nos requiere por ley o si violas nuestros Términos de Servicio.
+<Subtitle>HOW DO WE USE YOUR PERSONAL INFORMATION?</Subtitle>
 
+We use the Order Information that we collect generally to fulfill any orders placed through the Site (including processing your payment information and providing you with invoices and/or order confirmations).  Additionally, we use this Order Information to:
+Communicate with you;
+Screen our orders for potential risk or fraud; and
+When in line with the preferences you have shared with us, provide you with information or advertising relating to our products or services.
+We use the Device Information that we collect to help us screen for potential risk and fraud (in particular, your IP address), and more generally to improve and optimize our Site (for example, by generating analytics about how our customers browse and interact with the Site, and to assess the success of our marketing and advertising campaigns).
 
+<Subtitle>SHARING YOUR PERSONAL INFORMATION</Subtitle>
 
-<Subtitle>SECCIÓN 4 - SEVICIOS DE TERCERAS PARTES</Subtitle>
+We share your Personal Information with third parties to help us use your Personal Information, as described above.  We  use Google Analytics to help us understand how our customers use the Site--you can read more about how Google uses your Personal Information here:  https://www.google.com/intl/en/policies/privacy/.  You can also opt-out of Google Analytics here:  https://tools.google.com/dlpage/gaoptout.
 
-
-En general, los proveedores de terceras partes utilizados por nosotros solo recopilarán, usarán y divulgarán tu información en la medida que sea necesaria para que les permita desempeñar los servicios que nos proveen.
-
-Sin embargo, algunos proveedores de servicios de terceros, tales como pasarelas de pago y otros procesadores de transacciones de pago, tienen sus propias poliíticas de privacidad con respecto a la información que estamos obligados a proporcionarles para las transacciones relacionadas con las compras.
-
-Para estos proveedores, te recomendamos que leas las políticas de privacidad para que puedas entender la manera en que tu información personal será manejada.
-
-En particular, recuerda que algunos proveedores pueden estar ubicados o contar con instalaciones que se encuentran en una jurisdicción diferente a ti o nosotros.  Asique si deseas proceder con una transacción que involucra los servicios de un proveedor a terceros, tu información puede estar sujeta a las leyes de la jurisdicción (jurisdicciones) en que se encuentra el proveedor de servicios o sus instalaciones.
-
-A modo de ejemplo, si te encuentras en Canadá y tu transacción es procesada por una pasarela de pago con sede en Estados Unidos, entonces tu información personal utilizada para completar la transacción puede ser sujeto de divulgación en virtud de la legislación de Estados Unidos, incluyendo la Ley Patriota.
-
-Una vez que abandonas el sitio web de nuestra plataforma o te rediriges a un sitio o aplicación de terceros, ya no estás siendo regulados por la presente Política de Privacidad o los Términos de Servicio de nuestra página web.
-
-<strong>Enlaces</strong>
-
-Cuando haces clic en enlaces de nuestra plataforma, puede que seas redirigido fuera de nuestro sitio.  No somos reponsables por las prácticas de privacidad de otros sitios y te recomendamos leer sus normas de privacidad.
+Finally, we may also share your Personal Information to comply with applicable laws and regulations, to respond to a subpoena, search warrant or other lawful request for information we receive, or to otherwise protect our rights.
 
 
-<Subtitle>SECCIÓN 5 - SEGURIDAD</Subtitle>
-
-Para proteger tu información personal, tomamos precauciones razonables y seguimos las mejores prácticas de la industria para asegurarnos de que no haya pérdida de manera inapropiada, mal uso, acceso, divulgación, alteración o destrucción de la misma.
-
-SI nos proporcionas la información de tu tarjeta de crédito, dicha información es encriptada mediante la tecnología Secure Socket Layer (SSL) y se almacena con un cifrado AES-256.  Aunque ningún método de transmisión a través de Internet o de almacenamiento electrónico es 100% seguro, seguimos todos los requisitos de PCI-DSS e implementamos normas adicionales aceptadas por la industria.
+<Subtitle>BEHAVIOURAL ADVERTISING</Subtitle>
+As described above, we use your Personal Information to provide you with targeted advertisements or marketing communications we believe may be of interest to you.  For more information about how targeted advertising works, you can visit the Network Advertising Initiative’s (“NAI”) educational page at http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work.
 
 
 
 
-<Subtitle>SECCIÓN 6 - EDAD DE CONSENTIMIENTO</Subtitle>
-
-Al utilizar este sitio, declaras que tienes al menos la mayoría de edad en tu estado o provincia de residencia, o que tienes la mayoría de edad en tu estado o provincia de residencia y que nos has dado tu consentimiento para permitir que cualquiera de tus dependientes menores use este sitio.
-
-
-<Subtitle>SECCIÓN 7 - CAMBIOS A ESTA POLÍTICA DE PRIVACIDAD</Subtitle>
-
-Nos reservamos el derecho de modificar esta política de privacidad en cualquier momento, asique por favor revísala frecuentemente.  Cambios y aclaraciones entrarán en vigencia inmediatamente después de su publicación en el sitio web.  Si hacemos cambios materiales a esta política, notificaremos aquí que ha sido actualizada, por lo que cual estás enterado de qué información recopilamos, cómo y bajo qué circunstancias, si las hubiere, la utilizamos y/o divulgamos.
-
-Si nuestra plataforma es adquirida o fusionada con otra empresa, tu información puede ser transferida a los nuevos propietarios, para que podamos seguir vendiéndote productos.
+<Subtitle>DO NOT TRACK</Subtitle>
+Please note that we do not alter our Site’s data collection and use practices when we see a Do Not Track signal from your browser.
 
 
+<Subtitle>YOUR RIGHTS</Subtitle>
+If you are a European resident, you have the right to access personal information we hold about you and to ask that your personal information be corrected, updated, or deleted. If you would like to exercise this right, please contact us through the contact information below.
 
-<Subtitle>PREGUNTAS E INFORMACIÓN DE CONTACTO</Subtitle>
+Additionally, if you are a European resident we note that we are processing your information in order to fulfill contracts we might have with you (for example if you make an order through the Site), or otherwise to pursue our legitimate business interests listed above.  Additionally, please note that your information will be transferred outside of Europe, including to Canada and the United States.
 
-Si quieres: acceder, corregir, enmendar o borrar cualquier información personal que poseamos sobre ti, registrar una queja, o simplemente quieres más información contacta a nuestro Oficial de Cumplimiento de Privacidad mateo.perez.salazar@gmail.com o por correo postal a MVP Maker
+<Subtitle>DATA RETENTION</Subtitle>
+When you place an order through the Site, we will maintain your Order Information for our records unless and until you ask us to delete this information.
 
-[Re: Privacy Compliance Officer]
 
-[Carrera 15 #134-21, Bogotá DC, DC, 110121, Colombia]
+
+<Subtitle>CHANGES</Subtitle>
+We may update this privacy policy from time to time in order to reflect, for example, changes to our practices or for other operational, legal or regulatory reasons.
+
+<Subtitle>CONTACT US</Subtitle>
+For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at mateo.perez.salazar@gmail.com or by mail using the details provided below:
+
+  Carrera 15 #134-21, Bogotá, DC, 111011, Colombia
      </FeatureText>
 
 </StyledContainer>

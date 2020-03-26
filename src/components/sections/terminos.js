@@ -6,185 +6,185 @@ import { Section, Container } from "../global"
 const Terminos = () => (
   <Section id="features">
       <StyledContainer>
-     <SectionTitle>Términos y condiciones</SectionTitle>
-     <FeatureTitle>TÉRMINOS DE SERVICIO</FeatureTitle>
-     
-     <Subtitle>INFORMACIÓN GENERAL</Subtitle>
+      <SectionTitle>TERMS OF SERVICE</SectionTitle>
+      <FeatureTitle>TERMS OF SERVICE</FeatureTitle>
+
+----
+
+<Subtitle>OVERVIEW</Subtitle>
 <FeatureText>
-Este sitio web es operado por MVP Maker. En todo el sitio, los términos “nosotros”, “nos” y “nuestro” se refieren a MVP Maker. MVP Maker ofrece este sitio web, incluyendo toda la información, herramientas y servicios disponibles para ti en este sitio, el usuario, está condicionado a la aceptación de todos los términos, condiciones, políticas y notificaciones aquí establecidos.
+This website is operated by MVP Maker. Throughout the site, the terms “we”, “us” and “our” refer to MVP Maker. MVP Maker offers this website, including all information, tools and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here.
 
-Al visitar nuestro sitio y/o comprar algo de nosotros, paticipas en nuestro “Servicio” y aceptas los siguientes términos y condiciones (“Términos de Servicio”, “Términos”), incluídos todos los términos y condiciones adicionales y las polítias a las que se hace referencia en el presente documento y/o disponible a través de hipervínculos. Estas Condiciones de Servicio se aplican a todos los usuarios del sitio, incluyendo sin limitación a usuarios que sean  freelancers, clientes, y/o colaboradores de contenido.
+By visiting our site and/ or purchasing something from us, you engage in our “Service” and agree to be bound by the following terms and conditions (“Terms of Service”, “Terms”), including those additional terms and conditions and policies referenced herein and/or available by hyperlink. These Terms of Service apply  to all users of the site, including without limitation users who are freelancers,clients and/ or contributors of content.
 
-Por favor, lee estos Términos de Servicio cuidadosamente antes de acceder o utilizar nuestro sitio web. Al acceder o utilizar cualquier parte del sitio, estás aceptando los Términos de Servicio. Si no estás de acuerdo con todos los términos y condiciones de este acuerdo, entonces no deberías acceder a la página web o usar cualquiera de los servicios. Si las Términos de Servicio son considerados una oferta, la aceptación está expresamente limitada a estos Términos de Servicio.
+Please read these Terms of Service carefully before accessing or using our website. By accessing or using any part of the site, you agree to be bound by these Terms of Service. If you do not agree to all the terms and conditions of this agreement, then you may not access the website or use any services. If these Terms of Service are considered an offer, acceptance is expressly limited to these Terms of Service.
 
+Any new features or tools which are added to the current store shall also be subject to the Terms of Service. You can review the most current version of the Terms of Service at any time on this page. We reserve the right to update, change or replace any part of these Terms of Service by posting updates and/or changes to our website. It is your responsibility to check this page periodically for changes. Your continued use of or access to the website following the posting of any changes constitutes acceptance of those changes.
 
-Cualquier función nueva o herramienta que se añadan a la plataforma actual, tambien estarán sujetas a los Términos de Servicio. Puedes revisar la versión actualizada de los Términos de Servicio, en cualquier momento en esta página. Nos reservamos el derecho de actualizar, cambiar o reemplazar cualquier parte de los Términos de Servicio mediante la publicación de actualizaciones y/o cambios en nuestro sitio web. Es tu responsabilidad chequear esta página periódicamente para verificar cambios. Tu uso contínuo o el acceso al sitio web después de la publicación de cualquier cambio constituye la aceptación de dichos cambios.
 
 
+<Subtitle>SECTION 1 - platform TERMS</Subtitle>
 
-<Subtitle>SECCIÓN 1 - TÉRMINOS DE LA PLATAFORMA EN LÍNEA</Subtitle>
+By agreeing to these Terms of Service, you represent that you are at least the age of majority in your state or province of residence, or that you are the age of majority in your state or province of residence and you have given us your consent to allow any of your minor dependents to use this site.
 
-Al utilizar este sitio, declaras que tienes al menos la mayoría de edad en tu estado o provincia de residencia, o que tienes la mayoría de edad en tu estado o provincia de residencia y que nos has dado tu consentimiento para permitir que cualquiera de tus dependientes menores use este sitio.
+You may not use our products for any illegal or unauthorized purpose nor may you, in the use of the Service, violate any laws in your jurisdiction (including but not limited to copyright laws).
 
-No puedes usar nuestros servicios con ningún propósito ilegal o no autorizado tampoco puedes, en el uso del Servicio, violar cualquier ley en tu jurisdicción (incluyendo pero no limitado a las leyes de derecho de autor).
+You must not transmit any worms or viruses or any code of a destructive nature.
 
-No debes transmitir gusanos, virus o cualquier código de naturaleza destructiva.
+A breach or violation of any of the Terms will result in an immediate termination of your Services.
 
-El incumplimiento o violación de cualquiera de estos Términos darán lugar al cese inmediato de tus Servicios.
 
+<Subtitle>SECTION 2 - GENERAL CONDITIONS</Subtitle>
 
-<Subtitle>SECCIÓN 2 - CONDICIONES GENERALES</Subtitle>
+We reserve the right to refuse service to anyone for any reason at any time.
 
-Nos reservamos el derecho de rechazar la prestación de servicio a cualquier persona, por cualquier motivo y en cualquier momento.
+You understand that your content (not including credit card information), may be transferred unencrypted and involve (a) transmissions over various networks; and (b) changes to conform and adapt to technical requirements of connecting networks or devices. Credit card information is always encrypted during transfer over networks.
 
-Entiendes que tu contenido (sin incluir la información de tu tarjeta de crédito), puede ser transferida sin encriptar e involucrar (a) transmisiones a través de varias redes; y (b) cambios para ajustarse o adaptarse a los requisitos técnicos de conexión de redes o dispositivos. La información de tarjetas de crédito está siempre encriptada durante la transferencia a través de las redes.
+You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Service, use of the Service, or access to the Service or any contact on the website through which the service is provided, without express written permission by us.
 
-Estás de acuerdo con no reproducir, duplicar, copiar, vender, revender o explotar cualquier parte del Servicio, usp del Servicio, o acceso al Servicio o cualquier contacto en el sitio web a través del cual se presta el servicio, sin el expreso permiso por escrito de nuestra parte.
+The headings used in this agreement are included for convenience only and will not limit or otherwise affect these Terms.
 
-Los títulos utilizados en este acuerdo se icluyen solo por conveniencia y no limita o afecta a estos Términos.
 
+<Subtitle>SECTION 3 - ACCURACY, COMPLETENESS AND TIMELINESS OF INFORMATION </Subtitle>
 
-<Subtitle>SECCIÓN 3 - EXACTITUD, EXHAUSTVIDAD Y ACTUALIDAD DE LA INFORMACIÓN</Subtitle>
+We are not responsible if information made available on this site is not accurate, complete or current. The material on this site is provided for general information only and should not be relied upon or used as the sole basis for making decisions without consulting primary, more accurate, more complete or more timely sources of information. Any reliance on the material on this site is at your own risk.
 
-No nos hacemos responsables si la información disponible en este sitio no es exacta, completa o actual.  El material en este sitio es provisto solo para información general y no debe confiarse en ella o utilizarse como la única base para la toma de decisiones sin consultar primeramente, información más precisa, completa u oportuna.  Cualquier dependencia em el materia de este sitio es bajo su propio riesgo.
+This site may contain certain historical information. Historical information, necessarily, is not current and is provided for your reference only. We reserve the right to modify the contents of this site at any time, but we have no obligation to update any information on our site. You agree that it is your responsibility to monitor changes to our site.
 
-Este sitio puede contener cierta información histórica.  La información histórica, no es necesriamente actual y es provista únicamente para tu referencia.  Nos reservamos el derecho de modificar los contenidos de este sitio en cualquier momento, pero no tenemos obligación de actualizar cualquier información en nuestro sitio.  Aceptas que es tu responsabilidad de monitorear los cambios en nuestro sitio.
 
-<Subtitle>SECCIÓN 4 - MODIFICACIONES AL SERVICIO Y PRECIOS</Subtitle>
+<Subtitle>SECTION 4 - MODIFICATIONS TO THE SERVICE AND PRICES</Subtitle>
 
-Los precios de nuestros servicios están sujetos a cambio sin aviso.
+Prices for our services are subject to change without notice.
 
-Nos reservamos el derecho de modificar o discontinuar el Servicio (o cualquier parte del contenido) en cualquier momento sin aviso previo.
+We reserve the right at any time to modify or discontinue the Service (or any part or content thereof) without notice at any time.
 
-No seremos responsables ante ti o alguna tercera parte por cualquier modificación, cambio de precio, suspensión o discontinuidad del Servicio.
+We shall not be liable to you or to any third-party for any modification, price change, suspension or discontinuance of the Service.
 
 
-<Subtitle>SECCIÓN 5 - SERVICIOS (si aplicable)</Subtitle>
+<Subtitle>SECTION 5 - SERVICES (if applicable)</Subtitle>
 
-Nuevos servicios pueden  estar disponibles exclusivamente en línea a través del sitio web. Estos Servicios pueden tener cantidades limitadas y estar sujetas a devolución o cambio de acuerdo a nuestra política de devolución solamente.
+Certain services may be available exclusively online through the website. These services may have limited quantities and are subject to return or exchange only according to our Return Policy.
 
-Hemos hecho el esfuerzo de mostrar los colores y las imágenes de nuestros servicios, en la tienda, con la mayor precisión de colores posible.  No podemos garantizar que el monitor de tu computadora muestre los colores de manera exacta.
+We have made every effort to display as accurately as possible the colors and images of our products that appear at the platform. We cannot guarantee that your computer monitor's display of any color will be accurate.
 
-Nos reservamos el derecho, pero no estamos obligados, para limitar las ventas de nuestros servicios a cualquier persona, región geográfica o jurisdicción.  Podemos ejercer este derecho basados en cada caso.  Nos reservamos el derecho de limitar las cantidades de los productos o servicios que ofrecemos.  Todas las descripciones de servicios o precios de los servicios están sujetos a cambios en cualquier momento sin previo aviso, a nuestra sola discreción.  Nos reservamos el derecho de discontinuar cualquier producto en cualquier momento.  Cualquier oferta de producto o servicio hecho en este sitio es nulo donde esté prohibido.
+We reserve the right, but are not obligated, to limit the sales of our Services to any person, geographic region or jurisdiction. We may exercise this right on a case-by-case basis. We reserve the right to limit the quantities of any  services that we offer. All descriptions of service pricing are subject to change at anytime without notice, at the sole discretion of us. We reserve the right to discontinue any service at any time. Any offer for any  service made on this site is void where prohibited.
 
-No garantizamos que la calidad de los servicios, información u otro material comprado u obtenido por ti  cumpla con tus expectativas, o que cualquier error en el Servicio será corregido.
+We do not warrant that the quality of any services, information, or other material purchased or obtained by you will meet your expectations, or that any errors in the Service will be corrected.
 
 
-<Subtitle>SECCIÓN 6 - EXACTITUD DE FACTURACIÓN E INFORMACIÓN DE CUENTA XX</Subtitle>
+<Subtitle>SECTION 6 - ACCURACY OF BILLING AND ACCOUNT INFORMATION</Subtitle>
 
-Nos reservamos el derecho de rechazar cualquier pedido que realice con nosotros. Podemos, a nuestra discreción, limitar o cancelar las cantidades compradas por persona, por hogar o por pedido. Estas restricciones pueden incluir pedidos realizados por o bajo la misma cuenta de cliente, la misma tarjeta de crédito, y/o pedidos que utilizan la misma facturación.
+We reserve the right to refuse any order you place with us. We may, in our sole discretion, limit or cancel quantities purchased per person, per household or per order. These restrictions may include orders placed by or under the same customer account, the same credit card, and/or orders that use the same billing and/or shipping address. In the event that we make a change to or cancel an order, we may attempt to notify you by contacting the e-mail and/or billing address/phone number provided at the time the order was made. We reserve the right to limit or prohibit orders that, in our sole judgment, appear to be placed by dealers, resellers or distributors.
 
-En el caso de que hagamos un cambio o cancelemos una orden, podemos intentar notificarte poniéndonos en contacto vía correo electrónico y/o dirección de facturación / número de teléfono proporcionado en el momento que se hizo pedido. Nos reservamos el derecho de limitar o prohibir las órdenes que, a nuestro juicio, parecen ser colocado por los concesionarios, revendedores o distribuidores.
+You agree to provide current, complete and accurate purchase and account information for all purchases made at our store. You agree to promptly update your account and other information, including your email address and credit card numbers and expiration dates, so that we can complete your transactions and contact you as needed.
 
-Te comprometes a proporcionar información actual, completa y precisa de la compra y cuenta utilizada para todas las compras realizadas en nuestra plataforma.  Te comprometes a actualizar rápidamente tu cuenta y otra información, incluyendo tu dirección de correo electrónico y números de tarjetas de crédito y fechas de vencimiento, para que podamos completar tus transacciones y contactarte cuando sea necesario.
+For more detail, please review our Returns Policy.
 
-Para más detalles, por favor revisa nuestra Política de Devoluciones.
 
-<Subtitle>SECCIÓN 7 - HERRAMIENTAS OPCIONALES</Subtitle>
+<Subtitle>SECTION 7 - OPTIONAL TOOLS</Subtitle>
 
-Es posible que te proporcionemos aceso a herramientas de terceros a los cuales no monitoreamos y sobre los que no tenemos control ni entrada.
+We may provide you with access to third-party tools over which we neither monitor nor have any control nor input.
 
-Reconoces y aceptas que proporcionamos acceso a este tipo de herramientas "tal cual" y "según disponibilidad" sin garantías, representaciones o condiciones de ningún tipo y sin ningún respaldo.  No tendremos responsabilidad alguna derivada de o relacionada con tu uso de herramientas proporcionadas por terceras partes.
+You acknowledge and agree that we provide access to such tools ”as is” and “as available” without any warranties, representations or conditions of any kind and without any endorsement. We shall have no liability whatsoever arising from or relating to your use of optional third-party tools.
 
-Cualquier uso que hagas de las herramientas opcionales que se ofrecen a través del sitio bajo tu propio riesgo y discreción y debes asegurarte de estar familiarizado y aprobar los términos bajo los cuales estas herramientas son proporcionadas por el o los proveedores de terceros.
+Any use by you of optional tools offered through the site is entirely at your own risk and discretion and you should ensure that you are familiar with and approve of the terms on which tools are provided by the relevant third-party provider(s).
 
-Tambien es posible que, en el futuro, te ofrezcamos nuevos servicios y/o características a través del sitio web (incluyendo el lanzamiento de nuevas herramientas y recursos).  Estas nuevas caraterísticas y/o servicios tambien estarán sujetos a estos Términos de Servicio.
+We may also, in the future, offer new services and/or features through the website (including, the release of new tools and resources). Such new features and/or services shall also be subject to these Terms of Service.
 
-<Subtitle>SECCIÓN 8 - ENLACES DE TERCERAS PARTES</Subtitle>
 
-Cierto contenido, productos y servicios disponibles vía nuestro Servicio puede incluír material de terceras partes.
+<Subtitle>SECTION 8 - THIRD-PARTY LINKS</Subtitle>
 
-Enlaces de terceras partes en este sitio pueden direccionarte a sitios web de terceras partes que no están afiliadas con nosotros.  No nos responsabilizamos  de examinar o evaluar el contenido o exactitud y no garantizamos ni tendremos ninguna obligación o responsabilidad por cualquier material de terceros o siitos web, o de cualquier material, productos o servicios de terceros.
+Certain content, products and services available via our Service may include materials from third-parties.
 
-No nos hacemos responsables de cualquier daño o daños relacionados con la adquisición o utilización de bienes, servicios, recursos, contenidos, o cualquier otra transacción realizadas en conexión con sitios web de terceros.  Por favor revisa cuidadosamente las políticas y prácticas de terceros y asegúrate de entenderlas antes de participar en cualquier transacción.  Quejas, reclamos, inquietudes o preguntas con respecto a productos de terceros deben ser dirigidas a la tercera parte.
+Third-party links on this site may direct you to third-party websites that are not affiliated with us. We are not responsible for examining or evaluating the content or accuracy and we do not warrant and will not have any liability or responsibility for any third-party materials or websites, or for any other materials, products, or services of third-parties.
 
-<Subtitle>SECCIÓN 9 - COMENTARIOS DE USUARIO, CAPTACIÓN Y OTROS ENVÍOS</Subtitle>
+We are not liable for any harm or damages related to the purchase or use of goods, services, resources, content, or any other transactions made in connection with any third-party websites. Please review carefully the third-party's policies and practices and make sure you understand them before you engage in any transaction. Complaints, claims, concerns, or questions regarding third-party products should be directed to the third-party.
 
-Si, a pedido nuestro, envías ciertas presentaciones específicas (por ejemplo la participación en concursos) o sin un pedido de nuestra parte envías ideas creativas, sugerencias, proposiciones, planes, u otros materiales, ya sea en línea, por email, por correo postal, o de otra manera (colectivamente, 'comentarios'), aceptas que podamos, en cualquier momento, sin restricción, editar, copiar, publicar, distribuír, traducir o utilizar por cualquier medio comentarios que nos hayas enviado. No tenemos ni tendremos ninguna obligación (1) de mantener ningún comentario confidencialmente; (2) de pagar compensación por comentarios; o (3) de responder a comentarios.
 
-Nosotros podemos, pero no tenemos obligación de, monitorear, editar o remover contenido que consideremos sea ilegítimo, ofensivo, amenazante, calumnioso, difamatorio, pornográfico, obsceno u objetable o viole la propiedad intelectual de cualquiera de las partes o los Términos de Servicio.
+<Subtitle>SECTION 9 - USER COMMENTS, FEEDBACK AND OTHER SUBMISSIONS</Subtitle>
 
-Aceptas que tus comentarios no violarán los derechos de terceras partes, incluyendo derechos de autor, marca, privacidad, personalidad u otro derechos personal o de propiedad. Asimismo, aceptas que tus comentarios no contienen material difamatorio o ilegal, abusivo u obsceno, o contienen virus informáticos u otro malware que pudiera, de alguna manera, afectar el funcionamiento del Servicio o de cualquier sitio web relacionado.  No puedes utilizar una dirección de correo electrónico falsa, usar otra identidad que no sea legítima, o engañar a terceras partes o a nosotros en cuanto al origen de tus comentarios.  Tu eres el único responsable por los comentarios que haces y su precisión.  No nos hacemos responsables y no asumimos ninguna obligación con respecto a los comentarios publicados por ti o cualquier tercer parte.
+If, at our request, you send certain specific submissions (for example contest entries) or without a request from us you send creative ideas, suggestions, proposals, plans, or other materials, whether online, by email, by postal mail, or otherwise (collectively, 'comments'), you agree that we may, at any time, without restriction, edit, copy, publish, distribute, translate and otherwise use in any medium any comments that you forward to us. We are and shall be under no obligation (1) to maintain any comments in confidence; (2) to pay compensation for any comments; or (3) to respond to any comments.
 
+We may, but have no obligation to, monitor, edit or remove content that we determine in our sole discretion are unlawful, offensive, threatening, libelous, defamatory, pornographic, obscene or otherwise objectionable or violates any party’s intellectual property or these Terms of Service.
 
-<Subtitle>SECCIÓN 10 - INFORMACIÓN PERSONAL </Subtitle>
+You agree that your comments will not violate any right of any third-party, including copyright, trademark, privacy, personality or other personal or proprietary right. You further agree that your comments will not contain libelous or otherwise unlawful, abusive or obscene material, or contain any computer virus or other malware that could in any way affect the operation of the Service or any related website. You may not use a false e-mail address, pretend to be someone other than yourself, or otherwise mislead us or third-parties as to the origin of any comments. You are solely responsible for any comments you make and their accuracy. We take no responsibility and assume no liability for any comments posted by you or any third-party.
 
-Tu presentación de información personal a través del sitio se rige por nuestra Política de Privacidad. <Link to="/privacidad/">Para ver nuestra Política de Privacidad.</Link>
 
+<Subtitle>SECTION 10 - PERSONAL INFORMATION</Subtitle>
 
-<Subtitle>SECCIÓN 11 - ERRORES, INEXACTITUDES Y OMISIONES</Subtitle>
+Your submission of personal information through the plataform is governed by our Privacy Policy. To view our Privacy Policy.
 
-De vez en cuando puede haber información en nuestro sitio o en el Servicio que contiene errores tipográficos, inexactitudes u omisiones que puedan estar relacionadas con las descripciones de servicos, precios, promociones, ofertas, gastos de envío del producto, el tiempo de tránsito y la disponibilidad. Nos reservamos el derecho de corregir los errores, inexactitudes u omisiones y de cambiar o actualizar la información o cancelar pedidos si alguna información en el Servicio o en cualquier sitio web relacionado es inexacta en cualquier momento sin previo aviso (incluso después de que hayas enviado tu orden) .
 
-No asumimos ninguna obligación de actualizar, corregir o aclarar la información en el Servicio o en cualquier sitio web relacionado, incluyendo, sin limitación, la información de precios, excepto cuando sea requerido por la ley. Ninguna especificación actualizada o fecha de actualización aplicada en el Servicio o en cualquier sitio web relacionado, debe ser tomada para indicar que toda la información en el Servicio o en cualquier sitio web relacionado ha sido modificado o actualizado.
+<Subtitle>SECTION 11 - ERRORS, INACCURACIES AND OMISSIONS</Subtitle>
 
+Occasionally there may be information on our site or in the Service that contains typographical errors, inaccuracies or omissions that may relate to services descriptions, pricing, promotions, offers. We reserve the right to correct any errors, inaccuracies or omissions, and to change or update information or cancel orders if any information in the Service or on any related website is inaccurate at any time without prior notice (including after you have submitted your order).
 
-<Subtitle>SECCIÓN 12 - USOS PROHIBIDOS</Subtitle>
+We undertake no obligation to update, amend or clarify information in the Service or on any related website, including without limitation, pricing information, except as required by law. No specified update or refresh date applied in the Service or on any related website, should be taken to indicate that all information in the Service or on any related website has been modified or updated.
 
-En adición a otras prohibiciones como se establece en los Términos de Servicio, se prohibe el uso del sitio o su contenido: (a) para ningún propósito ilegal; (b) para pedirle a otros que realicen o participen en actos ilícitos; (c) para violar cualquier regulación, reglas, leyes internacionales, federales, provinciales o estatales, u ordenanzas locales; (d) para infringir o violar el derecho de propiedad intelectual nuestro o de terceras partes; (e) para acosar, abusar, insultar, dañar, difamar, calumniar, desprestigiar, intimidar o discriminar por razones de género, orientación sexual, religión, tnia, raza, edad, nacionalidad o discapacidad; (f) para presentar información falsa o engañosa; (g) para cargar o transmitir virus o cualquier otro tipo de código malicioso que sea o pueda ser utilizado en cualquier forma que pueda comprometer la funcionalidad o el funcionamientodel Servicio o de cualquier sitio web relacionado, otros sitios o Internet; (h) para recopilar o rastrear información personal de otros; (i) para generar spam, phish, pharm, pretext, spider, crawl, or scrape; (j) para cualquier propósito obsceno o inmoral; o (k) para interferir con o burlar los elementos de seguridad del Servicio o cualquier sitio web relacionado¿ otros sitios o Internet. Nos reservamos el derecho de suspender el uso del Servicio o de cualquier sitio web relacionado por violar cualquiera de los ítems de los usos prohibidos.
 
 
-<Subtitle>SECCIÓN 13 - EXCLUSIÓN DE GARANTÍAS; LIMITACIÓN DE RESPONSABILIDAD</Subtitle>
+<Subtitle>SECTION 12 - PROHIBITED USES</Subtitle>
 
-No garantizamos ni aseguramos que el uso de nuestro servicio será ininterrumpido, puntual, seguro o libre de errores.
+In addition to other prohibitions as set forth in the Terms of Service, you are prohibited from using the site or its content: (a) for any unlawful purpose; (b) to solicit others to perform or participate in any unlawful acts; (c) to violate any international, federal, provincial or state regulations, rules, laws, or local ordinances; (d) to infringe upon or violate our intellectual property rights or the intellectual property rights of others; (e) to harass, abuse, insult, harm, defame, slander, disparage, intimidate, or discriminate based on gender, sexual orientation, religion, ethnicity, race, age, national origin, or disability; (f) to submit false or misleading information; (g) to upload or transmit viruses or any other type of malicious code that will or may be used in any way that will affect the functionality or operation of the Service or of any related website, other websites, or the Internet; (h) to collect or track the personal information of others; (i) to spam, phish, pharm, pretext, spider, crawl, or scrape; (j) for any obscene or immoral purpose; or (k) to interfere with or circumvent the security features of the Service or any related website, other websites, or the Internet. We reserve the right to terminate your use of the Service or any related website for violating any of the prohibited uses.
 
-No garantizamos que los resultados que se puedan obtener del uso del servicio serán exactos o confiables.
 
-Aceptas que de vez en cuando podemos quitar el servicio por períodos de tiempo indefinidos o cancelar el servicio en cualquier momento sin previo aviso.
+<Subtitle>SECTION 13 - DISCLAIMER OF WARRANTIES; LIMITATION OF LIABILITY</Subtitle>
 
-Aceptas expresamenteque el uso de, o la posibilidad de utilizar, el servicio es bajo tu propio riesgo.  El servicio y todos los productos y servicios proporcionados a través del servicio son (salvo lo expresamente manifestado por nosotros) proporcionados "tal cual" y "según esté disponible" para su uso, sin ningún tipo de representación, garantías o condiciones de ningún tipo, ya sea expresa o implícita, incluídas todas las garantías o condiciones implícitas de comercialización, calidad comercializable, la aptitud para un propósito particular, durabilidad, título y no infracción.
+We do not guarantee, represent or warrant that your use of our service will be uninterrupted, timely, secure or error-free.
 
-En ningún caso MVP Maker, nuestros directores, funcionarios, empleados, afiliados, agentes, contratistas, internos, proveedores, prestadores de servicios o licenciantes serán responsables por cualquier daño, pérdida, reclamo, o daños directos, indirectos, incidentales, punitivos, especiales o consecuentes de cualquier tipo, incluyendo, sin limitación, pérdida de beneficios, pérdida de ingresos, pérdida de ahorros, pérdida de datos, costos de reemplazo, o cualquier daño similar, ya sea basado en contrato, agravio (incluyendo negligencia), responsabilidad estricta o de otra manera, como consecuencia del uso de cualquiera de los servicios o productos adquiridos mediante el servicio, o por cualquier otro reclamo relacionado de alguna manera con el uso del servicio o cualquier producto, incluyendo pero no limitado, a cualquier error u omisión en cualquier contenido, o cualquier pérdida o daño de cualquier tipo incurridos como resultados de la utilización del servicio o cualquier contenido (o producto) públicado, transmitido, o que se pongan a disposición a través del servicio, incluso si se avisa de su posibilidad.  Debido a que algunos estados o jurisdicciones no permiten la exclusión o la limitación de responsabilidad por daños consecuenciales o incidentales, en tales estados o jurisdicciones, nuestra responsabilidad se limitará en la medida máxima permitida por la ley.
+We do not warrant that the results that may be obtained from the use of the service will be accurate or reliable.
 
-Aceptas que: (a) La Empresa no suministra los servicios ofrecidos a través de la plataforma, (b) MVP Maker es un intermediario que le facilita a los clientes un Portal de Contacto a través de la plataforma para que puedan interactuar entre sí y llevar a cabo la prestación de los servicios y, (c) los Servicios ofrecidos a través de la plataforma son suministrados por terceros proveedores particulares independientes (Freelancers), que no tienen una relación laboral con MVP Maker.
+You agree that from time to time we may remove the service for indefinite periods of time or cancel the service at any time, without notice to you.
 
-<Subtitle>SECCIÓN 14 - INDEMNIZACIÓN</Subtitle>
+You expressly agree that your use of, or inability to use, the service is at your sole risk. The service and all products and services delivered to you through the service are (except as expressly stated by us) provided 'as is' and 'as available' for your use, without any representation, warranties or conditions of any kind, either express or implied, including all implied warranties or conditions of merchantability, merchantable quality, fitness for a particular purpose, durability, title, and non-infringement.
 
-Aceptas indemnizar, defender y mantener indemne MVP Maker y nuestras matrices, subsidiarias, afiliados, socios, funcionarios, directores, agentes, contratistas, concesionarios, proveedores de servicios, subcontratistas, proveedores, internos y empleados, de cualquier reclamo o demanda, incluyendo honorarios razonables de abogados, hechos por cualquier tercero a causa o como resultado de tu incumplimiento de las Condiciones de Servicio o de los documentos que incorporan como referencia, o la violación de cualquier ley o de los derechos de u tercero.
+In no case shall MVP Maker, our directors, officers, employees, affiliates, agents, contractors, interns, suppliers, service providers or licensors be liable for any injury, loss, claim, or any direct, indirect, incidental, punitive, special, or consequential damages of any kind, including, without limitation lost profits, lost revenue, lost savings, loss of data, replacement costs, or any similar damages, whether based in contract, tort (including negligence), strict liability or otherwise, arising from your use of any of the service or any products procured using the service, or for any other claim related in any way to your use of the service or any product, including, but not limited to, any errors or omissions in any content, or any loss or damage of any kind incurred as a result of the use of the service or any content (or product) posted, transmitted, or otherwise made available via the service, even if advised of their possibility. Because some states or jurisdictions do not allow the exclusion or the limitation of liability for consequential or incidental damages, in such states or jurisdictions, our liability shall be limited to the maximum extent permitted by law.
 
-<Subtitle>SECCIÓN 15 - DIVISIBILIDAD</Subtitle>
 
-En el caso de que se determine que cualquier disposición de estas Condiciones de Servicio sea ilegal, nula o inejecutable, dicha disposición será, no obstante, efectiva a obtener la máxima medida permitida por la ley aplicable, y la parte no exigible se considerará separada de estos Términos de Servicio, dicha determinación no afectará la validez de aplicabilidad de las demás disposiciones restantes.
 
+<Subtitle>SECTION 14 - INDEMNIFICATION</Subtitle>
 
-<Subtitle>SECCIÓN 16 - RESCISIÓN</Subtitle>
+You agree to indemnify, defend and hold harmless MVP Maker and our parent, subsidiaries, affiliates, partners, officers, directors, agents, contractors, licensors, service providers, subcontractors, suppliers, interns and employees, harmless from any claim or demand, including reasonable attorneys’ fees, made by any third-party due to or arising out of your breach of these Terms of Service or the documents they incorporate by reference, or your violation of any law or the rights of a third-party.
 
-Las obligaciones y responsabilidades de las partes que hayan incurrido con anterioridad a la fecha de terminación sobrevivirán a la terminación de este acuerdo a todos los efectos.
 
-Estas Condiciones de servicio son efectivos a menos que y hasta que sea terminado por ti o nosotros. Puedes terminar estos Términos de Servicio en cualquier momento por avisarnos que ya no deseas utilizar nuestros servicios, o cuando dejes de usar nuestro sitio.
+<Subtitle>SECTION 15 - SEVERABILITY</Subtitle>
 
-Si a nuestro juicio, fallas, o se sospecha que haz fallado, en el cumplimiento de cualquier término o disposición de estas Condiciones de Servicio, tambien podemos terminar este acuerdo en cualquier momento sin previo aviso, y seguirás siendo responsable de todos los montos adeudados hasta incluída la fecha de terminación; y/o en consecuencia podemos negarte el acceso a nuestros servicios (o cualquier parte del mismo).
+In the event that any provision of these Terms of Service is determined to be unlawful, void or unenforceable, such provision shall nonetheless be enforceable to the fullest extent permitted by applicable law, and the unenforceable portion shall be deemed to be severed from these Terms of Service, such determination shall not affect the validity and enforceability of any other remaining provisions.
 
-<Subtitle>SECCIÓN 17 - REVERSIÓN DEL PAGO</Subtitle>
 
-En caso de solicitar la reversión del pago esta se realizará al mismo método de pago utilizado por este para la compra o, en caso de haber aceptado un método diferente, será regresado donde se indique siempre y cuando sea posible. En caso de que el pago se haya realizado con tarjeta de crédito, el reverso del pago podrá verse reflejado hasta treinta (30) días después de haber solicitado la reversión. Esto depende de la entidad bancaria de la que sea cliente. Para los pagos realizados en dinero en efectivo, el pago se realizará a la cuenta de ahorros o corriente indicada por el cliente en un plazo de treinta (30) días.
+<Subtitle>SECTION 16 - TERMINATION</Subtitle>
 
-<Subtitle>SECCIÓN 18 - ACUERDO COMPLETO</Subtitle>
+The obligations and liabilities of the parties incurred prior to the termination date shall survive the termination of this agreement for all purposes.
 
-Nuestra falla para ejercer o hacer valer cualquier derecho o disposiciôn de estas Condiciones de Servicio no constituirá una renucia a tal derecho o disposición.
+These Terms of Service are effective unless and until terminated by either you or us. You may terminate these Terms of Service at any time by notifying us that you no longer wish to use our Services, or when you cease using our site.
 
-Estas Condiciones del servicio y las políticas o reglas de operación publicadas por nosotros en este sitio o con respecto al servicio constituyen el acuerdo completo y el entendimiento entre tu y nosotros y rigen el uso del Servicio y reemplaza cualquier acuerdo, comunicaciones y propuestas anteriores o contemporáneas, ya sea oral o escrita, entre tu y nosotros (incluyendo, pero no limitado a, cualquier versión previa de los Términos de Servicio).
+If in our sole judgment you fail, or we suspect that you have failed, to comply with any term or provision of these Terms of Service, we also may terminate this agreement at any time without notice and you will remain liable for all amounts due up to and including the date of termination; and/or accordingly may deny you access to our Services (or any part thereof).
 
-Cualquier ambigüedad en la interpretación de estas Condiciones del servicio no se interpretarán en contra del grupo de redacción.
 
+<Subtitle>SECTION 17 - ENTIRE AGREEMENT</Subtitle>
 
-<Subtitle>SECCIÓN 19 - LEY </Subtitle>
+The failure of us to exercise or enforce any right or provision of these Terms of Service shall not constitute a waiver of such right or provision.
 
-Estas Condiciones del servicio y cualquier acuerdos aparte en el que te proporcionemos servicios se regirán e interpretarán en conformidad con las leyes de la República de Colombia.
+These Terms of Service and any policies or operating rules posted by us on this site or in respect to The Service constitutes the entire agreement and understanding between you and us and govern your use of the Service, superseding any prior or contemporaneous agreements, communications and proposals, whether oral or written, between you and us (including, but not limited to, any prior versions of the Terms of Service).
 
+Any ambiguities in the interpretation of these Terms of Service shall not be construed against the drafting party.
 
-<Subtitle>SECCIÓN 20 - CAMBIOS EN LOS TÉRMINOS DE SERVICIO</Subtitle>
 
-Puedes revisar la versión más actualizada de los Términos de Servicio en cualquier momento en esta página.
+<Subtitle>SECTION 18 - GOVERNING LAW</Subtitle>
 
-Nos reservamos el derecho, a nuestra sola discreción, de actualizar, modificar o reemplazar cualquier parte de estas Condiciones del servicio mediante la publicación de las actualizaciones y los cambios en nuestro sitio web. Es tu responsabilidad revisar nuestro sitio web periódicamente para verificar los cambios. El uso contínuo de o el acceso a nuestro sitio Web o el Servicio después de la publicación de cualquier cambio en estas Condiciones de servicio implica la aceptación de dichos cambios.
+These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of Carrera 15 #134-21, Bogota, DC, 111011, Colombia.
 
 
-<Subtitle>SECCIÓN 21 - INFORMACIÓN DE CONTACTO</Subtitle>
+<Subtitle>SECTION 19 - CHANGES TO TERMS OF SERVICE</Subtitle>
 
-Preguntas acerca de los Términos de Servicio deben ser enviadas a mateo.perez.salazar@gmail.com.
-<br/>
-<br/>
+You can review the most current version of the Terms of Service at any time at this page.
+
+We reserve the right, at our sole discretion, to update, change or replace any part of these Terms of Service by posting updates and changes to our website. It is your responsibility to check our website periodically for changes. Your continued use of or access to our website or the Service following the posting of any changes to these Terms of Service constitutes acceptance of those changes.
+
+
+<Subtitle>SECTION 20 - CONTACT INFORMATION</Subtitle>
+
+Questions about the Terms of Service should be sent to us at mateo.perez.salazar@gmail.com
 Iconos diseñados por <a href="https://www.flaticon.es/autores/alfredo-hernandez" title="Alfredo Hernandez">Alfredo Hernandez</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a>
 </FeatureText>
 </StyledContainer>
