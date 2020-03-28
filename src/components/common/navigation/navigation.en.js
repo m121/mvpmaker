@@ -16,7 +16,7 @@ import {
   ActionsContainer,
 } from "./style"
 
-const NAV_ITEMS = ["", "", ""]
+const NAV_ITEMS = ["Features", "How it works", "Start"]
 
 export default class Navigation extends Component {
   state = {
@@ -92,9 +92,9 @@ export default class Navigation extends Component {
   }
 
   getNavAnchorLink = item => (
-    <Link to="/" onClick={this.closeMobileMenu}>
+    <AnchorLink  href={`#${item.toLowerCase()}`} onClick={this.closeMobileMenu}>
       {item}
-    </Link>
+    </AnchorLink >
   )
 
   getNavList = ({ mobile = false }) => (
@@ -128,7 +128,7 @@ export default class Navigation extends Component {
             </Scrollspy>
           </Brand>
           <Mobile>
-           {/* <button
+            <button
               onClick={this.toggleMobileMenu}
               style={{ color: "black", background: "none" }}
             >
@@ -137,7 +137,7 @@ export default class Navigation extends Component {
               ) : (
                 <Menu size={24} alt="open menu" />
               )}
-            </button>*/}
+            </button>
           </Mobile>
 
           <Mobile hide>{this.getNavList({})}</Mobile>

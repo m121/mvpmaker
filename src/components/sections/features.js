@@ -7,7 +7,7 @@ import imgtiempo from "../../../src/images/product/cronografo.png";
 import { Section, Container } from "../global"
 
 const Features = () => (
-  <Section id="caracteristicas">
+  <Section id="features">
     <StyledContainer>
       
       <SectionTitle>Why people choose us ?</SectionTitle>
@@ -16,9 +16,9 @@ const Features = () => (
         <ImageWrapper>
         <StyledImage src={imgpagina} alt="full_mvp"/>
           </ImageWrapper>
-          <FeatureTitle>Full Website</FeatureTitle>
+          <FeatureTitle>Full project</FeatureTitle>
           <FeatureText>
-             We build, we design and we set the hosting configuration for your website.
+          We prototype, we design and we build your full project.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
@@ -36,7 +36,7 @@ const Features = () => (
           </ImageWrapper>
           <FeatureTitle>Deadline time</FeatureTitle>
           <FeatureText>
-           The deadline is 2 months to build your website.
+          We build your project in 2 months max.
           </FeatureText>
         </FeatureItem>
         
@@ -45,7 +45,7 @@ const Features = () => (
         <StyledImage src={imgprogramador} alt="pro_people"/>
           </ImageWrapper>
           <FeatureTitle>Experts</FeatureTitle>
-          <FeatureText>We only accept best developers.</FeatureText>
+          <FeatureText>We only work with the best teams.</FeatureText>
         </FeatureItem>
        
       </FeaturesGrid>

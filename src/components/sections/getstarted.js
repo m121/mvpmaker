@@ -24,7 +24,8 @@ const GetStarted = () => {
   
   return (<Section id="start"><StyledSection>
     <GetStartedContainer>
-    <GetStartedTitle>Choose your website</GetStartedTitle>
+    <GetStartedTitle>Choose your fixed project</GetStartedTitle>
+    <Subtitle></Subtitle>
       <FeaturesGrid>
      
       <FeatureItem>
@@ -46,7 +47,7 @@ const GetStarted = () => {
           </CardFieldset>
 
           <CardFieldset>
-            <CardButton  href="https://mateo796943.typeform.com/to/bb2Xf0">Choose website</CardButton>
+            <CardButton  href="https://mateo796943.typeform.com/to/bb2Xf0">Start a project</CardButton>
           </CardFieldset>
 
           
@@ -75,7 +76,7 @@ const GetStarted = () => {
           </CardFieldset>
 
           <CardFieldset>
-            <CardButton  href="https://mateo796943.typeform.com/to/tcbYzj">Choose website</CardButton>
+            <CardButton  href="https://mateo796943.typeform.com/to/tcbYzj">Start a project</CardButton>
           </CardFieldset>
 
           
@@ -107,7 +108,7 @@ const GetStarted = () => {
           </CardFieldset>
 
           <CardFieldset>
-            <CardButton  href="https://mateo796943.typeform.com/to/SQbFXG">Choose website</CardButton>
+            <CardButton  href="https://mateo796943.typeform.com/to/SQbFXG">Start a project</CardButton>
           </CardFieldset>
           
           

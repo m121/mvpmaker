@@ -21,30 +21,30 @@ const HowTo = () => {
 `)
 
   
-  return (<Section id="howto"><StyledSection>
+  return (<Section id="how it works"><StyledSection>
     <GetStartedContainer>
-    <GetStartedTitle>How we do it?</GetStartedTitle>
+    <GetStartedTitle>How it works</GetStartedTitle>
       <FeaturesGrid>
      
       <FeatureItem>
       <StyledImage src={mano} width="20" alt="choose_project"/>
-      <CardDescripton>1. Choose the project.</CardDescripton>
+      <CardDescripton>1. Tell us about your project idea.</CardDescripton>
      
       </FeatureItem>
       <FeatureItem>
       <StyledImage src={codigo} alt="freelancers_take"/>
-      <CardDescripton>2. A developer freelancer take the project.</CardDescripton>
+      <CardDescripton>2. A developer expert take the project.</CardDescripton>
       
     </FeatureItem>
     <FeatureItem>
     <StyledImage src={lista} alt="list_goals"/>
-    <CardDescripton>3. Set goals, schedule dateline with your developer and then we send you the payment link. 
+    <CardDescripton>3. Set goals and delivery dates. 
     </CardDescripton>
       
       </FeatureItem>
       <FeatureItem>
       <StyledImage src={meta} alt="deadline_project"/>
-    <CardDescripton>4. We confirm your full project and we pay do the payment.
+    <CardDescripton>4. We finish your project and we confirm the payment.
                        
     </CardDescripton>
       
