@@ -29,7 +29,7 @@ const Header = () => {
           <HeaderTextGroup>
             <Subtitle>MVP maker</Subtitle>
             <h1>
-              We build the best
+              We build awesome
               <br />
               projects
             </h1>

@@ -5,6 +5,7 @@ import { Menu, X } from "react-feather"
 import {Link} from "gatsby"
 import { Container } from "../../global"
 import styled, { css } from "styled-components";
+import { API_MAILCHIMP} from "gatsby-env-variables"
 import {
   Nav,
   NavItem,
@@ -48,6 +49,7 @@ export default class Navigation extends Component {
 
 
   sendemails = () =>{
+    console.log(API_MAILCHIMP);
 
    if(this.state.email != ''){
   var data = {
@@ -63,21 +65,21 @@ export default class Navigation extends Component {
    //   mode: 'no-cors',
       body: JSON.stringify(data), // data can be `string` or {object}!
       headers:{
-        'Authorization' :'Basic 3c35569e40ba4b6c0e75a28d569cc16b-us19'
+        'Authorization' :`Basic ${API_MAILCHIMP}`
       }
     }).then(res => res.json())
     .catch(error => {
-      this.setState({email : '',buttontxt : '¡Error!'})
+      this.setState({email : '',buttontxt : 'Error!'})
       //  console.error('Error:', error)
       })
     .then(response =>{
-      this.setState({email : '',buttontxt : '¡Sent!',buttondisabled : true})
+      this.setState({email : '',buttontxt : 'Sent!',buttondisabled : true})
       // console.log('Success:', response)
       });
 
    }
    else{
-    this.setState({email : '',buttontxt : '¡Write your email!'})
+    this.setState({email : '',buttontxt : 'Write your email!'})
    }
   }
 
@@ -154,7 +156,7 @@ export default class Navigation extends Component {
         </Mobile>
         <DivEmail>
         <FormEmail>
-        <Label>Send me an email when you have a special discount? </Label>
+        <Label style={{color:'red'}}>Send me an email when you have a special discount </Label>
         <Input type="email" placeholder="Email" name="email" value={this.state.email} onChange={this.handleChangeEmail}></Input>
         <Button onClick={this.sendemails} disabled={this.state.buttondisabled}>{this.state.buttontxt}</Button>
 
