@@ -49,7 +49,7 @@ export default class Navigation extends Component {
 
 
   sendemails = () =>{
-    console.log(process.env.MAILCHIMP_ACCESS_TOKEN);
+    
 
    if(this.state.email != ''){
   var data = {
