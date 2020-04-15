@@ -5,7 +5,6 @@ import { Menu, X } from "react-feather"
 import {Link} from "gatsby"
 import { Container } from "../../global"
 import styled, { css } from "styled-components";
-import { API_MAILCHIMP} from "gatsby-env-variables"
 import {
   Nav,
   NavItem,
@@ -16,6 +15,7 @@ import {
   Mobile,
   ActionsContainer,
 } from "./style"
+
 
 const NAV_ITEMS = ["Features", "How it works", "Start"]
 
@@ -49,7 +49,7 @@ export default class Navigation extends Component {
 
 
   sendemails = () =>{
-    console.log(API_MAILCHIMP);
+    console.log(process.env.MAILCHIMP_ACCESS_TOKEN);
 
    if(this.state.email != ''){
   var data = {
@@ -65,7 +65,7 @@ export default class Navigation extends Component {
    //   mode: 'no-cors',
       body: JSON.stringify(data), // data can be `string` or {object}!
       headers:{
-        'Authorization' :`Basic ${API_MAILCHIMP}`
+        'Authorization' :`Basic ${process.env.MAILCHIMP_ACCESS_TOKEN}`
       }
     }).then(res => res.json())
     .catch(error => {
