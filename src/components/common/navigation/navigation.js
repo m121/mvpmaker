@@ -63,7 +63,7 @@ export default class Navigation extends Component {
    //   mode: 'no-cors',
       body: JSON.stringify(data), // data can be `string` or {object}!
       headers:{
-        'Authorization' :'Basic 3c35569e40ba4b6c0e75a28d569cc16b-us19'
+        'Authorization' :`Basic ${process.env.MAILCHIMP_ACCESS_TOKEN}`
       }
     }).then(res => res.json())
     .catch(error => {
