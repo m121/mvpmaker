@@ -21,14 +21,14 @@ const HowTo = () => {
 `)
 
   
-  return (<Section id="howto"><StyledSection>
+  return (<Section id="como funciona"><StyledSection>
     <GetStartedContainer>
     <GetStartedTitle>¿Cómo lo hacemos?</GetStartedTitle>
       <FeaturesGrid>
      
       <FeatureItem>
       <StyledImage src={mano} width="20" alt="escoge_proyecto"/>
-      <CardDescripton>1. Escoge el proyecto deseado.</CardDescripton>
+      <CardDescripton>1. Nos cuentas sobre el proyecto.</CardDescripton>
      
       </FeatureItem>
       <FeatureItem>
@@ -38,12 +38,12 @@ const HowTo = () => {
     </FeatureItem>
     <FeatureItem>
     <StyledImage src={lista} alt="lista_objetivos"/>
-    <CardDescripton>3. Defines objetivos, fecha de entrega con tu desarrollador y luego recibimos tu pago.</CardDescripton>
+    <CardDescripton>3. Defines objetivos, fecha de entrega con tu desarrollador.</CardDescripton>
       
       </FeatureItem>
       <FeatureItem>
       <StyledImage src={meta} alt="meta_proyecto"/>
-    <CardDescripton>4. En la fecha establecida recibes el proyecto y el desarrollador su pago.</CardDescripton>
+    <CardDescripton>4. Finalizamos el proyecto y confirmamos el pago.</CardDescripton>
       
       </FeatureItem>
       

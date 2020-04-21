@@ -7,18 +7,18 @@ import imgtiempo from "../../../src/images/product/cronografo.png";
 import { Section, Container } from "../global"
 
 const Features = () => (
-  <Section id="caracteristicas">
+  <Section id="cualidades">
     <StyledContainer>
-      <Subtitle>Características</Subtitle>
+     
       <SectionTitle>¿Por qué elegirnos ?</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
         <ImageWrapper>
         <StyledImage src={imgpagina} alt="Completo_mvp"/>
           </ImageWrapper>
-          <FeatureTitle>Completo MVP</FeatureTitle>
+          <FeatureTitle>Proyectos completos</FeatureTitle>
           <FeatureText>
-             Creamos, diseñamos y te configuramos el hosting con dominio para tu MVP.
+            Prototitamos, diseñamos y creamos tu proyecto completo
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
@@ -36,7 +36,7 @@ const Features = () => (
           </ImageWrapper>
           <FeatureTitle>Tiempo definido</FeatureTitle>
           <FeatureText>
-           Máximo 2 meses para crearte tu MVP.
+           Máximo 2 meses para crearte tu proyecto.
           </FeatureText>
         </FeatureItem>
         
@@ -45,7 +45,7 @@ const Features = () => (
         <StyledImage src={imgprogramador} alt="profesionales"/>
           </ImageWrapper>
           <FeatureTitle>Profesionales</FeatureTitle>
-          <FeatureText>Solamente desarrolladores profesionales.</FeatureText>
+          <FeatureText>Solamente trabajamos con los mejores equipos.</FeatureText>
         </FeatureItem>
        
       </FeaturesGrid>
